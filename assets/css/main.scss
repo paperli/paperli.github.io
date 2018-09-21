@@ -23,12 +23,66 @@ h1{
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
 	font-size: 5em;
-	padding-left: 40px;
-	padding-right: 40px;
 	float: left;
 }
 
 .hero {
 	background:url("/assets/images/diwo.jpg") no-repeat center center;
 	background-size:cover;
+}
+
+ul#links{
+	margin:0;
+}
+
+ul#links>li{
+	list-style:none;
+}
+
+.link>a {
+	display:block;
+	width:52px;
+	height:52px;
+	transition:transform 0.4s ease-in-out;
+	transform: rotate(0deg); 
+}
+
+.link>a:hover {
+	transform: rotate(10deg);
+}
+
+#link-cv {
+	background:url("/assets/images/btnCV.png") no-repeat center center;
+}
+
+#link-mail {
+	background:url("/assets/images/btnMail.png") no-repeat center center;	
+}
+
+#link-twitter {
+	background:url("/assets/images/btnTwitter.png") no-repeat center center;
+}
+
+#link-linkedin {
+	background:url("/assets/images/btnLinkedin.png") no-repeat center center;
+}
+
+#link-blog {
+	background:url("/assets/images/btnBlogger.png") no-repeat center center;
+}
+
+.portrait {
+	background:url("/assets/images/portrait-color.png") no-repeat center center;
+	background-size:100% auto;
+	width:80px;
+	height:80px;
+}
+
+ul.description{
+	margin-left:1.5rem;
+	margin-bottom:0;
+}
+
+ul.description>li{
+	list-style:none;
 }
