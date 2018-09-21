@@ -3,3 +3,32 @@
 ---
 
 @import "minima";
+
+$primary-text-color:#36a9e1;
+
+html, body {
+	height:100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color:$primary-text-color;
+}
+
+h1{
+	font-weight: lighter;
+	font-family: 'Lobster Two', cursive;
+	font-style: italic;
+	font-size: 5em;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+}
+
+.hero {
+	background:url("/assets/images/diwo.jpg") no-repeat center center;
+	background-size:cover;
+}
