@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Land Rover China"
+short: "landrover"
+images: 
+    - "/assets/images/ddd_1.jpg"
+    - "/assets/images/ddd_2.jpg"
+    - "/assets/images/ddd_3.jpg"
+
+---
+We count for Diabetics!
+
+Diabetics count after dining for blood sugar balance. It may be simple counting for adults, but for kid it's the problem.
+
+I was joining the team in pilotfish for solving this matter. The project contained two parts: iPhone Case with weight scale and the app to count the sugar contained. I made the wired scale for food weight and passed in cloud. The app count the sugar quantity based on online database and the food weight in cloud. The demo kit proved the concept and gain the success in the in-house design competition.
