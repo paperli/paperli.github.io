@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "DDD"
+title:  "Pilotfish MCBW event"
 short: "pilotfish-mcbw"
 images: 
-    - "/assets/images/ddd_1.jpg"
-    - "/assets/images/ddd_2.jpg"
-    - "/assets/images/ddd_3.jpg"
+    - "/assets/images/mcbw-1.jpg"
+    - "/assets/images/mcbw-2.jpg"
+    - "/assets/images/mcbw-3.jpg"
 
 ---
-We count for Diabetics!
+[http://www.pilotfish.eu/mcbw/](http://www.pilotfish.eu/mcbw/)
 
-Diabetics count after dining for blood sugar balance. It may be simple counting for adults, but for kid it's the problem.
-
-I was joining the team in pilotfish for solving this matter. The project contained two parts: iPhone Case with weight scale and the app to count the sugar contained. I made the wired scale for food weight and passed in cloud. The app count the sugar quantity based on online database and the food weight in cloud. The demo kit proved the concept and gain the success in the in-house design competition.
+The big innovation event in Munich! Munich Creative Business Week. I designed a webpage to present speech schedule in Pilotfish booth. **It's all about time!** The main part of this design is the time-line and the blobs of speakers. As requesed also made the pdf version and invitation card.

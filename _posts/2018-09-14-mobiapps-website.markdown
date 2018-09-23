@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "DDD"
+title:  "MobiApps Website"
 short: "mobiapps-website"
 images: 
-    - "/assets/images/ddd_1.jpg"
-    - "/assets/images/ddd_2.jpg"
-    - "/assets/images/ddd_3.jpg"
+    - "/assets/images/mobiapps_web1.jpg"
+    - "/assets/images/mobiapps_web2.jpg"
+    - "/assets/images/mobiapps_web3.jpg"
 
 ---
-We count for Diabetics!
+[http://www.themobiapps.com/](http://www.themobiapps.com/)
 
-Diabetics count after dining for blood sugar balance. It may be simple counting for adults, but for kid it's the problem.
-
-I was joining the team in pilotfish for solving this matter. The project contained two parts: iPhone Case with weight scale and the app to count the sugar contained. I made the wired scale for food weight and passed in cloud. The app count the sugar quantity based on online database and the food weight in cloud. The demo kit proved the concept and gain the success in the in-house design competition.
+TheMobiApps, the mobile app start-up in Taiwan, was planning to build the company identify prior to media publishing. I designed the whole new website with the 4 key colors in the company logo. The website consisted of the touch keys in present design trend, one-page scroll, simple and html5. It is planned to publish in March, 2013.

@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "DDD"
+title:  "GamerChat"
 short: "gamerchat"
 images: 
-    - "/assets/images/ddd_1.jpg"
-    - "/assets/images/ddd_2.jpg"
-    - "/assets/images/ddd_3.jpg"
+    - "/assets/images/gamerchat1.jpg"
+    - "/assets/images/gamerchat2.jpg"
+    - "/assets/images/gamerchat3.jpg"
+    - "/assets/images/gamerchat4.jpg"
+    - "/assets/images/gamerchat5.jpg"
 
 ---
-We count for Diabetics!
+[@App Store](https://itunes.apple.com/us/app/gong-hui-tong/id731810260?ls=1&mt=8)
 
-Diabetics count after dining for blood sugar balance. It may be simple counting for adults, but for kid it's the problem.
+People shall be able to talk at any time, any where, even they are offline of the online game.
 
-I was joining the team in pilotfish for solving this matter. The project contained two parts: iPhone Case with weight scale and the app to count the sugar contained. I made the wired scale for food weight and passed in cloud. The app count the sugar quantity based on online database and the food weight in cloud. The demo kit proved the concept and gain the success in the in-house design competition.
+GamerCaht is an app to let Gamers to continue talking on the go. The app inherit the nature of online game: Multi-role for single person, Guild(Group) communication, and Fun-factor passcode. The piano was designed to play the passcode to integrate the joy in practice. The multi-role system was designed to bring gamer's experience into chatting.

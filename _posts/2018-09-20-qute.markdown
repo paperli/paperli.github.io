@@ -3,13 +3,17 @@ layout: post
 title:  "Qute"
 short: "qute"
 images: 
-    - "/assets/images/ddd_1.jpg"
-    - "/assets/images/ddd_2.jpg"
-    - "/assets/images/ddd_3.jpg"
+    - "/assets/images/qute1.jpg"
+    - "/assets/images/qute2.jpg"
+    - "/assets/images/qute3.jpg"
+    - "/assets/images/qute4.jpg"
+    - "/assets/images/qute5.jpg"
 
 ---
-We count for Diabetics!
+[@App Store](https://itunes.apple.com/vc/app/qute-qr-code-2d-barcode-scanner/id828181167?mt=8)
 
-Diabetics count after dining for blood sugar balance. It may be simple counting for adults, but for kid it's the problem.
+Qute is not just the QR code scanner. It also brings the QR code online. People can share and read the comments about the QR code from the world.
 
-I was joining the team in pilotfish for solving this matter. The project contained two parts: iPhone Case with weight scale and the app to count the sugar contained. I made the wired scale for food weight and passed in cloud. The app count the sugar quantity based on online database and the food weight in cloud. The demo kit proved the concept and gain the success in the in-house design competition.
+The idea was from the scenarios from street. Image that you saw a QR code on the street. You realized it's shit only when you already visit through it. With Qute people can see the comments from the world about the QR code and you decide to continue or abort the visit.
+
+Beyond that, Qute keeps the scan picture and displays it as part of result. Not only for the visual, but also for the memory. People may recall where the QR code is by the surrending of the QR code in the picture.
