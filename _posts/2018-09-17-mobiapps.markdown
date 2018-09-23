@@ -3,13 +3,13 @@ layout: post
 title:  "MobiApps"
 short: "mobiapps"
 images: 
-    - "/assets/images/mobiapps1.jpg"
-    - "/assets/images/mobiapps2.jpg"
-    - "/assets/images/mobiapps3.jpg"
-    - "/assets/images/mobiapps4.jpg"
-    - "/assets/images/mobiapps5.jpg"
-    - "/assets/images/mobiapps6.jpg"
-    - "/assets/images/mobiapps7.jpg"
+    - "/assets/images/mobiapps-1.jpg"
+    - "/assets/images/mobiapps-2.jpg"
+    - "/assets/images/mobiapps-3.jpg"
+    - "/assets/images/mobiapps-4.jpg"
+    - "/assets/images/mobiapps-5.jpg"
+    - "/assets/images/mobiapps-6.jpg"
+    - "/assets/images/mobiapps-7.jpg"
 
 ---
 [Mobiapps @App Store](https://itunes.apple.com/tw/app/ding-hao/id577065907?mt=8)

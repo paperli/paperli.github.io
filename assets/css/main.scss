@@ -26,6 +26,23 @@ h1{
 	float: left;
 }
 
+a {
+	color:$primary-text-color;
+	text-decoration:underline;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+a:hover {
+	color: #156b95;
+	text-decoration: none;
+}
+
+a:visited {
+	color:$primary-text-color;
+	text-decoration:underline;
+}
+
 .hero {
 	background:url("/assets/images/diwo.jpg") no-repeat center center;
 	background-size:cover;
@@ -89,4 +106,35 @@ ul.description>li{
 
 .gallery {
 	overflow:hidden;
+}
+
+.gallery::after{
+	width:100%;
+	height:100%;
+	background:url("/assets/images/ddd_1.jpg") no-repeat center center;
+	background-size:cover;
+}
+
+.case-description {
+
+}
+
+.case-description-background {
+	position:absolute;
+	filter:blur(20px);
+	top:0;
+	left:0;
+	background-color:black;
+	width:100%;
+	height:100%;
+}
+
+.case-background {
+	filter:blur(20px);
+	-webkit-filter:blur(20px);
+	transform:scale(1.2, 1.2);
+}
+
+.case-background-overlay {
+	background-color:rgba(0,0,0,0.4);
 }

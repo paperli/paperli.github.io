@@ -5,11 +5,25 @@ layout: default
 <div class="container-fluid h-100">
   {% for post in site.posts %}
     <div class="row h-100">
-      <div id="case-{{ post.short }}" class="carousel slide w-100 gallery">
-        <div class="carousel-inner">
+      <div id="case-{{ post.short }}" class="carousel slide w-100 gallery" data-wrap="false" data-interval="false">
+        <img src="{{ post.images[0] | relative_url }}" alt="{{ post.short }}" class="case-background d-block position-absolute w-100 mh-100">
+        <div class="case-background-overlay d-block position-absolute w-100 h-100"></div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div class="w-100 h-100 case-description d-table">
+              <div class="container d-table-cell align-middle">
+                <div class="row">
+                  <h1 class="offset-md-2 col-md-8 offset-sm-1 col-sm-10">{{ post.title }}</h1>
+                </div>
+                <div class="row">
+                  <div class="offset-md-2 col-md-8 offset-sm-1 col-sm-10">{{ post.content }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
           {% for image in post.images %}
             {% if forloop.first == true %}
-            <div class="carousel-item active">
+            <div class="carousel-item">
             {% else %}
             <div class="carousel-item">
             {% endif %}
