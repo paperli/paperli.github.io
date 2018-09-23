@@ -8,7 +8,11 @@ layout: default
       <div id="case-{{ post.short }}" class="carousel slide w-100 gallery">
         <div class="carousel-inner">
           {% for image in post.images %}
+            {% if forloop.first == true %}
             <div class="carousel-item active">
+            {% else %}
+            <div class="carousel-item">
+            {% endif %}
               <img src="{{ image | relative_url }}" alt="{{ post.short }}" class="d-block w-100">
             </div>
           {% endfor %}
