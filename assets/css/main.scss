@@ -130,11 +130,22 @@ ul.description>li{
 }
 
 .case-background {
-	filter:blur(20px);
-	-webkit-filter:blur(20px);
-	transform:scale(1.2, 1.2);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 .case-background-overlay {
-	background-color:rgba(0,0,0,0.4);
+	background-color:rgba(0,0,0,0.8);
+}
+
+.case-image {
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+// test
+.case-gallery {
+	overflow:hidden;
 }
