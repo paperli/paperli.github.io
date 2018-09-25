@@ -6,6 +6,12 @@ layout: default
   {% for post in site.posts %}
     <div class="row h-100">
       <div id="case-{{ post.short }}" class="carousel slide w-100 gallery" data-wrap="false" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#case-{{ post.short }}" data-slide-to="0" class="active"></li>
+          {% for image in post.images %}
+            <li data-target="#case-{{ post.short }}" data-slide-to="{{ forloop.index | plus:1 }}"></li>
+          {% endfor %}
+        </ol>
         <div class="carousel-inner h-100">
           <div class="carousel-item active h-100">
             <div class="case-background d-block position-absolute w-100 h-100" style="background-image:url({{ post.images[0] | relative_url }})"></div>
@@ -31,11 +37,11 @@ layout: default
             </div>
           {% endfor %}
         </div>
-        <a href="#case-{{ post.short }}" class="carousel-control-prev" role="button" data-slide="prev">
+        <a href="#case-{{ post.short }}" class="carousel-control-prev d-none d-md-block" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a href="#case-{{ post.short }}" class="carousel-control-next" role="button" data-slide="next">
+        <a href="#case-{{ post.short }}" class="carousel-control-next d-none d-md-block" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
