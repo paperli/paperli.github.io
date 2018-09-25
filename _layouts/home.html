@@ -9,7 +9,7 @@ layout: default
         <ol class="carousel-indicators">
           <li data-target="#case-{{ post.short }}" data-slide-to="0" class="active"></li>
           {% for image in post.images %}
-            <li data-target="#case-{{ post.short }}" data-slide-to="{{ forloop.index | plus:1 }}"></li>
+            <li data-target="#case-{{ post.short }}" data-slide-to="{{ forloop.index }}"></li>
           {% endfor %}
         </ol>
         <div class="carousel-inner h-100">
