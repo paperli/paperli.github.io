@@ -170,6 +170,37 @@ ul.description>li{
 	overflow:hidden;
 }
 
+.pure {
+	color: #333;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.pure h1 {
+	font-weight:800;
+	font-size:3.6rem;
+	width:100%;
+	margin-bottom:2rem;
+}
+
+.pure h2 {
+	font-weight:600;
+	font-size:2.4rem;
+	width: 100%;
+	color:#666;
+	margin-top:1rem;
+}
+
+.pure ul {
+	width: 100%;
+	color: #333;
+}
+
+.pure p {
+	color:#333;
+	width:100%;
+}
+
 @media (max-width: 767.98px) {
 
   h1{
