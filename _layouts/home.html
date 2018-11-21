@@ -5,12 +5,17 @@ layout: default
 <div class="container cases">
   <div class="card-columns">
   {% for post in site.posts %}
-    <div class="card">
+    <div class="card" onclick="goViewer('showcase-{{ post.short }}');">
       <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
       <div class="card-body">
-        <h5 class="card-title">{{ post.title }}</h5>
+        <h3 class="card-title">{{ post.title }}</h5>
         <p class="card-text">{{ post.content }}</p>
       </div>
+      <ul id="showcase-{{ post.short }}" style="display:none;">
+        {% for image in post.images %}
+        <li><img src="{{ image }}"></li>
+        {% endfor %}
+      </ul>
     </div>
   {% endfor %}
   </div>

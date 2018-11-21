@@ -8,3 +8,17 @@ $(function(){
 		}
 	})
 });
+
+function goViewer(images) {
+	const viewer = new Viewer(document.getElementById(images), {
+		toolbar:false,
+		transition:false,
+		rotatable:false,
+		hidden() {
+			this.viewer.destroy();
+		}
+	});
+
+	viewer.show()
+	
+}
