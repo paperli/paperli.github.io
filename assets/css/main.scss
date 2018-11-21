@@ -115,6 +115,20 @@ ul.description>li{
 	background-size:cover;
 }
 
+.cases {
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+.cases .card {
+	border-radius: 0.25rem;
+}
+
+.cases .card-img-top {
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
 .case-description {
 
 }
