@@ -133,6 +133,7 @@ ul.description>li{
 	background-position:center center;
 	background-size:cover;
 	background-repeat:no-repeat;
+	//filter:blur(20px);
 }
 
 .case-background-overlay {
@@ -148,4 +149,11 @@ ul.description>li{
 // test
 .case-gallery {
 	overflow:hidden;
+}
+
+@media (max-width: 767.98px) {
+
+  h1{
+	font-size: 4em;
+  }
 }

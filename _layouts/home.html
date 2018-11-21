@@ -5,6 +5,8 @@ layout: default
 <div class="container-fluid h-100">
   {% for post in site.posts %}
     <div class="row h-100">
+      <div class="case-background d-block position-absolute w-100 h-100" style="background-image:url({{ post.images[0] | relative_url }})"></div>
+      <div class="case-background-overlay d-block position-absolute w-100 h-100"></div>
       <div id="case-{{ post.short }}" class="carousel slide w-100 gallery" data-wrap="false" data-interval="false">
         <ol class="carousel-indicators">
           <li data-target="#case-{{ post.short }}" data-slide-to="0" class="active"></li>
@@ -14,8 +16,6 @@ layout: default
         </ol>
         <div class="carousel-inner h-100">
           <div class="carousel-item active h-100">
-            <div class="case-background d-block position-absolute w-100 h-100" style="background-image:url({{ post.images[0] | relative_url }})"></div>
-            <div class="case-background-overlay d-block position-absolute w-100 h-100"></div>
             <div class="w-100 h-100 case-description d-table">
               <div class="container d-table-cell align-middle">
                 <div class="row">
