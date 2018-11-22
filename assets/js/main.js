@@ -12,7 +12,7 @@ $(function(){
 function goViewer(images) {
 	const viewer = new Viewer(document.getElementById(images), {
 		toolbar:false,
-		transition:false,
+		transition:true,
 		rotatable:false,
 		hidden() {
 			this.viewer.destroy();
