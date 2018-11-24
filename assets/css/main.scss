@@ -22,7 +22,7 @@ h1{
 	font-weight: lighter;
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
-	font-size: 5em;
+	font-size: 3rem;
 	float: left;
 }
 
@@ -49,8 +49,21 @@ a:visited {
 }
 
 .hero {
-	background:url("/assets/images/diwo.jpg") no-repeat center center;
-	background-size:cover;
+	min-height:560px;
+}
+
+#hero-background {
+	width:100%;
+	height:300px;
+	position:absolute;
+}
+
+.hero-info {
+	position:absolute;
+}
+
+.hero h1, .hero p, .hero ul {
+	color: white;
 }
 
 ul#links{
@@ -66,31 +79,46 @@ ul#links>li{
 	width:52px;
 	height:52px;
 	transition:transform 0.4s ease-in-out;
-	transform: rotate(0deg); 
+	transform: initial; 
 }
 
 .link>a:hover {
-	transform: rotate(10deg);
+	transform: rotate(-10deg) translateY(-10px);
 }
 
 #link-cv {
-	background:url("/assets/images/btnCV.png") no-repeat center center;
+	background:url("/assets/images/icon_cv.png") no-repeat center center;
+	background-image: -webkit-image-set( url("/assets/images/icon_cv.png") 1x,
+                    url("/assets/images/icon_cv_2x.png") 2x,
+                    url("/assets/images/icon_cv_3x.png") 3x);
 }
 
 #link-mail {
-	background:url("/assets/images/btnMail.png") no-repeat center center;	
+	background:url("/assets/images/icon_mail.png") no-repeat center center;	
+	background-image: -webkit-image-set( url("/assets/images/icon_mail.png") 1x,
+                    url("/assets/images/icon_mail_2x.png") 2x,
+                    url("/assets/images/icon_mail_3x.png") 3x);
 }
 
 #link-twitter {
-	background:url("/assets/images/btnTwitter.png") no-repeat center center;
+	background:url("/assets/images/icon_twitter.png") no-repeat center center;
+	background-image: -webkit-image-set( url("/assets/images/icon_twitter.png") 1x,
+                    url("/assets/images/icon_twitter_2x.png") 2x,
+                    url("/assets/images/icon_twitter_3x.png") 3x);
 }
 
 #link-linkedin {
-	background:url("/assets/images/btnLinkedin.png") no-repeat center center;
+	background:url("/assets/images/icon_linkedin.png") no-repeat center center;
+	background-image: -webkit-image-set( url("/assets/images/icon_linkedin.png") 1x,
+                    url("/assets/images/icon_linkedin_2x.png") 2x,
+                    url("/assets/images/icon_linkedin_3x.png") 3x);
 }
 
 #link-blog {
-	background:url("/assets/images/btnBlogger.png") no-repeat center center;
+	background:url("/assets/images/icon_blogger.png") no-repeat center center;
+	background-image: -webkit-image-set( url("/assets/images/icon_blogger.png") 1x,
+                    url("/assets/images/icon_blogger_2x.png") 2x,
+                    url("/assets/images/icon_blogger_3x.png") 3x);
 }
 
 .portrait {
@@ -101,7 +129,7 @@ ul#links>li{
 }
 
 ul.description{
-	margin-left:1.5rem;
+	margin-left:0.75rem;
 	margin-bottom:0;
 }
 
