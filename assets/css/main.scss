@@ -23,7 +23,6 @@ h1{
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
 	font-size: 3rem;
-	float: left;
 }
 
 h3 {
@@ -227,6 +226,10 @@ ul.description>li{
 .pure p {
 	color:#333;
 	width:100%;
+}
+
+.box-404 {
+	text-align:center;
 }
 
 @media (max-width: 767.98px) {
