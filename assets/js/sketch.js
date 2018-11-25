@@ -1,6 +1,7 @@
-var dragY = 400;
-var currentY = 400;
 var midY = 400;
+var initMidPointY = 430;
+var dragY = initMidPointY;
+var currentY = initMidPointY;
 var characterBase, characterHead, characterHands;
 var characterSize = { width: 157, height: 284};
 var characterOffsetY = 242;
@@ -59,5 +60,5 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-	dragY = midY;
+	dragY = initMidPointY;
 }
