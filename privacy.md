@@ -18,7 +18,7 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
 
-The app does use third party services that may collect information used to identify you.
+The Application also makes use of automatically collected information using the TrueDepth API provided by Apple. The only use of this information is to provide valuable user features. None of the information collected by the TrueDepth API ever leaves the user's device.
 
 ## Log Data ##
 
