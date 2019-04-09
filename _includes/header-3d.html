@@ -1,0 +1,23 @@
+<div class="hero" id="hero">
+	<canvas id="heroCanvas"></canvas>
+</div>
+<script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ship.js' | relative_url }}"></script>
+<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+<script>
+	var loader = new THREE.FileLoader();
+	loader.load( "{{ '/assets/json/ship.json' | relative_url }}", function ( text ) {
+
+		var player = new APP.Player();
+		player.load( JSON.parse( text ) );
+		player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
+		player.play();
+
+		document.getElementById("hero").appendChild( player.dom );
+
+		window.addEventListener( 'resize', function () {
+			player.setSize( window.innerWidth, window.innerHeight );
+		} );
+
+	} );
+</script>
