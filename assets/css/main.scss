@@ -82,6 +82,12 @@ a:visited {
 	flex-direction:column;
 }
 
+.arkit-badge-box>a {
+	width:74px;
+	height: 39px;
+	pointer-events:all;
+}
+
 ul#links{
 	margin:0;
 }
