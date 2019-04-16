@@ -16,7 +16,8 @@
 		document.getElementById("hero").appendChild( player.dom );
 
 		window.addEventListener( 'resize', function () {
-			player.setSize( window.innerWidth, window.innerHeight );
+			//player.setSize( window.innerWidth, window.innerHeight );
+			player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
 		} );
 
 	} );
