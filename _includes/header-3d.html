@@ -1,0 +1,63 @@
+<div class="hero" id="hero">
+	<canvas id="heroCanvas"></canvas>
+	<div class="cover-letter-box">
+		<div id="cover-letter" class="container">
+			<div class="row mb-3 mt-4 ml-0 name-box">
+				<h1 class="flex-shrink-0 mr-4">Paper Lee</h1>
+				<ul id="links" class="flex-shrink-1 d-flex align-items-center">
+					<li class="link">
+						<a id="link-mail" href="mailto:paper.li@gmail.com" alt="paper.li@gmail.com" title="paper.li@gmail.com" role="button" target="_blank"></a>
+					</li>
+					<li class="link">
+						<a id="link-twitter" href="https://twitter.com/@paperli" alt="@paperli" title="@paperli" role="button" target="_blank"></a>
+					</li>
+					<li class="link">
+						<a id="link-linkedin" href="http://www.linkedin.com/in/paperli" alt="LinkedIn" title="LinkedIn" role="button" target="_blank"></a>
+					</li>
+					<li class="link">
+						<a id="link-blog" href="http://paperworkstud.io/blog/" alt="Blog" title="Blog" role="button" target="_blank"></a>
+					</li>
+					<li class="link">
+						<a id="link-cv" href="{{ '/assets/raw/cv.pdf' | relative_url }}" alt="CV" title="CV" role="button" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="row personal-info d-flex flex-column ml-0 flex-grow-1">
+				<ul class="description d-none d-lg-block">
+					<li>I do USER INTERFACE design</li>
+					<li>I love TECH ♥ ART</li>
+					<li>I write .HTML</li>
+				</ul>
+				<div class="arkit-badge-box flex-grow-1 d-flex d-lg-none">
+					<a href="{{ '/assets/models/ship/ship.usdz' | relative_url }}" rel="ar">
+						<img src="{{ '/assets/images/arkit_badge.png' | relative_url }}" alt="ARKit">
+					</a>
+				</div>
+				<div class="short d-flex d-lg-none justify-content-center"><span class="align-self-end mb-3">UI | TECH*ART | .HTML | XR</span></div>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+<script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ship.js' | relative_url }}"></script>
+<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+<script>
+	var loader = new THREE.FileLoader();
+	loader.load( "{{ '/assets/json/ship2.json' | relative_url }}", function ( text ) {
+
+		var player = new APP.Player();
+		player.load( JSON.parse( text ) );
+		player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
+		player.play();
+
+		document.getElementById("hero").appendChild( player.dom );
+
+		window.addEventListener( 'resize', function () {
+			//player.setSize( window.innerWidth, window.innerHeight );
+			player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
+		} );
+
+	} );
+</script>
