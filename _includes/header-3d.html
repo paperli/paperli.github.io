@@ -45,7 +45,7 @@
 <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
 <script>
 	var loader = new THREE.FileLoader();
-	loader.load( "{{ '/assets/json/ship.json' | relative_url }}", function ( text ) {
+	loader.load( "{{ '/assets/json/ship2.json' | relative_url }}", function ( text ) {
 
 		var player = new APP.Player();
 		player.load( JSON.parse( text ) );
