@@ -1,4 +1,4 @@
-<div class="hero" id="hero">
+	<div class="hero" id="hero">
 	<canvas id="heroCanvas"></canvas>
 	<div class="cover-letter-box">
 		<div id="cover-letter" class="container">
@@ -42,7 +42,7 @@
 </div>
 <script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/ship.js' | relative_url }}"></script>
-<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+<script src="/assets/js/threejs/examples/js/controls/OrbitControls.js"></script>
 <script>
 	var loader = new THREE.FileLoader();
 	loader.load( "{{ '/assets/json/ship2.json' | relative_url }}", function ( text ) {
