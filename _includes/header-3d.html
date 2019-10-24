@@ -28,7 +28,7 @@
 					<li>I write .HTML</li>
 				</ul>
 				<div class="arkit-badge-box flex-grow-1 d-flex d-lg-none">
-					<a href="{{ '/assets/models/ship/ship.usdz' | relative_url }}" rel="ar">
+					<a href="{{ '/assets/models/vr/vr_playground_ar.usdz' | relative_url }}" rel="ar">
 						<img src="{{ '/assets/images/arkit_badge.png' | relative_url }}" alt="ARKit">
 					</a>
 				</div>
@@ -55,14 +55,24 @@
 		hero.appendChild(container);
 
 		camera = new THREE.PerspectiveCamera( 45, hero.offsetWidth / hero.offsetHeight, 0.25, 20);
-		camera.position.set(-1.8, 0.9, 2.7);
+		camera.position.set(-4.783, 3.567, 7.531);
+		camera.rotation.set(-0.3625, -0.5258, -0.1881);
 
 		scene = new THREE.Scene();
+		scene.background = new THREE.Color(0x2A0F10);
 
 		var loader = new GLTFLoader().setPath("{{ '/assets/models/vr/' | relative_url }}");
 		loader.load('vr_playground.gltf', function(gltf) {
 			// load successful
 			console.log("Load gltf successful");
+			gltf.scene.traverse(function(child) {
+				if (child.isLight) {
+					// reduce lights' intensity
+					console.log("light removed: " + child.name + "; intensity: " + child.intensity);
+					//child.visible = false;
+					child.intensity = 1;
+				}
+			});
 			scene.add(gltf.scene);
 		});
 
@@ -77,7 +87,7 @@
 		controls.update();
 
 		window.addEventListener('resize', onWindowResize, false);
-
+		document.body.addEventListener('mouseup', onBodyClick, true);
 	}
 
 	function onWindowResize() {
@@ -88,8 +98,15 @@
 		renderer.setSize(hero.offsetWidth, hero.offsetHeight);
 	}
 
+	function onBodyClick() {
+		console.log("camera pos: " + camera.position.x + ", " + camera.position.y + ", " + camera.position.z);
+		console.log("camera rot: " + camera.rotation.x + ", " + camera.rotation.y + ", " + camera.rotation.z);
+		console.log("camera scale: " + camera.scale.x + ", " + camera.scale.y + ", " + camera.scale.z);
+	}
+
 	function animate() {
 		requestAnimationFrame(animate);
 		renderer.render(scene, camera);
+
 	}
 </script>
