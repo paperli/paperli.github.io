@@ -71,12 +71,24 @@
 		loader.load('vr_playground.gltf', function(gltf) {
 			// load successful
 			console.log("Load gltf successful");
+			var light_count = 0;
 			gltf.scene.traverse(function(child) {
 				if (child.isLight) {
 					// reduce lights' intensity
-					console.log("light removed: " + child.name + "; intensity: " + child.intensity);
 					//child.visible = false;
 					child.intensity = 1;
+					light_count++;
+					if (light_count == 2) {
+						// oly the 2nd light casts shadow
+						child.castShadow = true;
+					}
+					
+				} else if (child.isMesh) {
+					console.log("current node: " + child.name);
+					// Only stage receives shadow but don't cast shadow
+					// TODO: Only headset casts shadow? To reduce performance impact
+					child.receiveShadow = (child.name == "Stage") ? true : false;
+					child.castShadow = (child.name == "Stage") ? false : true;
 				}
 			});
 			scene.add(gltf.scene);
@@ -86,6 +98,8 @@
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize(hero.offsetWidth, hero.offsetHeight);
 		renderer.gammaOutput = true;
+		renderer.shadowMapEnabled = true;
+		renderer.shadowMapType = THREE.PCFSoftShadowMap;
 		container.appendChild(renderer.domElement);
 
 		// Orbit controls
