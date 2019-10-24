@@ -1,5 +1,4 @@
-	<div class="hero" id="hero">
-	<canvas id="heroCanvas"></canvas>
+<div class="hero" id="hero">
 	<div class="cover-letter-box">
 		<div id="cover-letter" class="container">
 			<div class="row mb-3 mt-4 ml-0 name-box">
@@ -29,7 +28,7 @@
 					<li>I write .HTML</li>
 				</ul>
 				<div class="arkit-badge-box flex-grow-1 d-flex d-lg-none">
-					<a href="{{ '/assets/models/ship/ship.usdz' | relative_url }}" rel="ar">
+					<a href="{{ '/assets/models/vr/vr_playground_ar.usdz' | relative_url }}" rel="ar">
 						<img src="{{ '/assets/images/arkit_badge.png' | relative_url }}" alt="ARKit">
 					</a>
 				</div>
@@ -37,27 +36,77 @@
 			</div>
 		</div>
 	</div>
-
-	
 </div>
-<script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/ship.js' | relative_url }}"></script>
-<script src="/assets/js/threejs/examples/js/controls/OrbitControls.js"></script>
-<script>
-	var loader = new THREE.FileLoader();
-	loader.load( "{{ '/assets/json/ship2.json' | relative_url }}", function ( text ) {
 
-		var player = new APP.Player();
-		player.load( JSON.parse( text ) );
-		player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
-		player.play();
+<script type="module">
+	import * as THREE from "{{ '/assets/js/threejs/build/three.module.js' | relative_url }}";
+	import { OrbitControls } from "{{ '/assets/js/threejs/examples/jsm/controls/OrbitControls.js' }}";
+	import { GLTFLoader } from "{{ '/assets/js/threejs/examples/jsm/loaders/GLTFLoader.js' }}";
 
-		document.getElementById("hero").appendChild( player.dom );
+	var container, stats, controls;
+	var camera, scene, renderer;
 
-		window.addEventListener( 'resize', function () {
-			//player.setSize( window.innerWidth, window.innerHeight );
-			player.setSize( document.getElementById("hero").clientWidth, document.getElementById("hero").clientHeight );
-		} );
+	init();
+	animate();
 
-	} );
+	function init() {
+		container = document.createElement('div');
+		var hero = document.getElementById('hero');
+		hero.appendChild(container);
+
+		camera = new THREE.PerspectiveCamera( 45, hero.offsetWidth / hero.offsetHeight, 0.25, 20);
+		camera.position.set(-0.41, 4.255, 7.795);
+		camera.rotation.set(-0.259, 0.146, 0.039);
+
+		scene = new THREE.Scene();
+		scene.background = new THREE.Color(0x2A0F10);
+
+		var loader = new GLTFLoader().setPath("{{ '/assets/models/vr/' | relative_url }}");
+		loader.load('vr_playground.gltf', function(gltf) {
+			// load successful
+			console.log("Load gltf successful");
+			gltf.scene.traverse(function(child) {
+				if (child.isLight) {
+					// reduce lights' intensity
+					console.log("light removed: " + child.name + "; intensity: " + child.intensity);
+					//child.visible = false;
+					child.intensity = 1;
+				}
+			});
+			scene.add(gltf.scene);
+		});
+
+		renderer = new THREE.WebGLRenderer( {antialias: true} );
+		renderer.setPixelRatio(window.devicePixelRatio);
+		renderer.setSize(hero.offsetWidth, hero.offsetHeight);
+		renderer.gammaOutput = true;
+		container.appendChild(renderer.domElement);
+
+		/*controls = new OrbitControls( camera, renderer.domElement );
+		controls.target.set( 0, - 0.2, - 0.2 );
+		controls.update();*/
+
+		window.addEventListener('resize', onWindowResize, false);
+		document.body.addEventListener('mouseup', onBodyClick, true);
+	}
+
+	function onWindowResize() {
+		var hero = document.getElementById('hero');
+		camera.aspect = hero.offsetHeight / hero.offsetHeight;
+		camera.updateProjectionMatrix();
+
+		renderer.setSize(hero.offsetWidth, hero.offsetHeight);
+	}
+
+	function onBodyClick() {
+		console.log("camera pos: " + camera.position.x + ", " + camera.position.y + ", " + camera.position.z);
+		console.log("camera rot: " + camera.rotation.x + ", " + camera.rotation.y + ", " + camera.rotation.z);
+		console.log("camera scale: " + camera.scale.x + ", " + camera.scale.y + ", " + camera.scale.z);
+	}
+
+	function animate() {
+		requestAnimationFrame(animate);
+		renderer.render(scene, camera);
+
+	}
 </script>
