@@ -55,8 +55,8 @@
 		hero.appendChild(container);
 
 		camera = new THREE.PerspectiveCamera( 45, hero.offsetWidth / hero.offsetHeight, 0.25, 20);
-		camera.position.set(-2.644, 3.851, 5.842);
-		camera.rotation.set(-0.364, -0.137, -0.052);
+		camera.position.set(-0.41, 4.255, 7.795);
+		camera.rotation.set(-0.259, 0.146, 0.039);
 
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color(0x2A0F10);
@@ -82,9 +82,9 @@
 		renderer.gammaOutput = true;
 		container.appendChild(renderer.domElement);
 
-		controls = new OrbitControls( camera, renderer.domElement );
+		/*controls = new OrbitControls( camera, renderer.domElement );
 		controls.target.set( 0, - 0.2, - 0.2 );
-		controls.update();
+		controls.update();*/
 
 		window.addEventListener('resize', onWindowResize, false);
 		document.body.addEventListener('mouseup', onBodyClick, true);
