@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Fascroll"
+short: "fascroll"
+images: 
+    - "/assets/images/cases/fascroll/pic1.png"
+    - "/assets/images/cases/fascroll/pic2.png"
+    - "/assets/images/cases/fascroll/pic3.png"
+    - "/assets/images/cases/fascroll/pic4.png"
+
+---
+[@App Store](https://apps.apple.com/app/fascroll/id1443704703)
+
+Facroll frees your hands when you browse the website. By using iPhone's face recognition technology and AI-learning Fasture library, you use your facial expression to surf among websites. The Fasture libray is empowered by Apple's CoreML technology and improves the recognition of facial expressions with collected data. The app is the working demo for the conjunction of AI and AR technoloies. 
