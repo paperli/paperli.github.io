@@ -4,7 +4,7 @@
 
 @import "minima";
 
-$primary-text-color:#36a9e1;
+$primary-text-color:#2B2D2D;
 
 html, body {
 	height:100%;
@@ -13,16 +13,23 @@ html, body {
 body {
 	margin:0;
 	padding:0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Mukta', sans-serif;
 	font-size: 16px;
 	color:$primary-text-color;
+	background: #fff;
 }
 
 h1{
-	font-weight: lighter;
+	font-weight: 700;
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
 	font-size: 3rem;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 2.6rem;
+	font-family: 'Abril Fatface', cursive;
 }
 
 h3 {
@@ -176,12 +183,23 @@ ul.description>li{
 }
 
 .cases .card {
-	border-radius: 0.25rem;
+	border-radius: 0;
+	border: none;
+	padding: 0 1.25rem;
+	margin-bottom: 2.4rem;
 }
 
 .cases .card-img-top {
-	border-top-left-radius: 0.25rem;
-	border-top-right-radius: 0.25rem;
+	border-radius: 0.25rem;
+	border: solid 0.5px rgba(128, 128, 128, 0.2);
+}
+
+.cases .card-body {
+	padding: 0.75rem 0 1.25rem;
+}
+
+.cases .card-body p {
+	margin-bottom: 13px;
 }
 
 .case-description {
