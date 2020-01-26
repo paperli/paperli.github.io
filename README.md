@@ -1,2 +1,2 @@
 # paperworkstudio
-New structure of paperworkstud.io
+Official site for paperworkStud.io
