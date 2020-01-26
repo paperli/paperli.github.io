@@ -3,19 +3,14 @@ layout: default
 ---
 
 <div class="container cases">
-  <div class="card-columns">
+  <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>
   {% for post in site.posts %}
-    <div class="card" onclick="goViewer('showcase-{{ post.short }}');" data-tilt data-tilt-perspective="1000">
+    <div class="grid-item">
       <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
       <div class="card-body">
         <h2 class="card-title">{{ post.title }}</h5>
         <p class="card-text">{{ post.content }}</p>
       </div>
-      <ul id="showcase-{{ post.short }}" style="display:none;">
-        {% for image in post.images %}
-        <li><img src="{{ image }}"></li>
-        {% endfor %}
-      </ul>
     </div>
   {% endfor %}
   </div>
