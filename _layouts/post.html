@@ -16,7 +16,7 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {{ page.content | remove: page.excerpt }}
   </div>
 
   {%- if site.disqus.shortname -%}

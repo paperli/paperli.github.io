@@ -18,8 +18,6 @@ Pilotfish was reforming official website to meet fashion web spec, aka. no flash
 
 The website was announced in end 2012.
 <!--more-->
-# Pilotfish Mobile Website
-
 ![Pilotfish Mobile Website](/assets/images/pf_mobile1.jpg)
 
 [http://www.pilotfish.eu/](http://www.pilotfish.eu/)

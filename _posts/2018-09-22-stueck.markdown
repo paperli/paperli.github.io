@@ -12,8 +12,6 @@ images:
 We all love animated GIF! Stueck is easy-to-use GIF camera app. With Stueck you can create GIF frame-by-frame. It might be the simplest GIF creator. You just take pictures, aka. frames, and then set up speed, more turtle or more rabbit. That's it!
 
 <!--more-->
-# Stueck
-
 ![Gif it](/assets/images/stueck1.jpg)
 
 [@App Store](https://itunes.apple.com/tw/app/stueck-gif-camera/id1120576038?l=zh&mt=8)
