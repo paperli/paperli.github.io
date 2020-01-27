@@ -2,6 +2,8 @@
 layout: post
 title:  "MobiApps Website"
 short: "mobiapps-website"
+tags:
+    - "Web"
 images: 
     - "/assets/images/mobiapps_web1.jpg"
     - "/assets/images/mobiapps_web2.jpg"

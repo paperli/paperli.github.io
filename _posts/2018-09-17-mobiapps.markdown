@@ -2,6 +2,9 @@
 layout: post
 title:  "MobiApps"
 short: "mobiapps"
+tags:
+    - "App"
+    - "iOS"
 images: 
     - "/assets/images/mobiapps-1.jpg"
     - "/assets/images/mobiapps-2.jpg"

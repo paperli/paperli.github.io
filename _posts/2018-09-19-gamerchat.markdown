@@ -2,6 +2,10 @@
 layout: post
 title:  "GamerChat"
 short: "gamerchat"
+tags:
+    - "App"
+    - "iOS"
+    - "Prototype"
 images: 
     - "/assets/images/gamerchat1.jpg"
     - "/assets/images/gamerchat2.jpg"

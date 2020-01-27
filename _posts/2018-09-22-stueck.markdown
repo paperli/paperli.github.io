@@ -2,6 +2,10 @@
 layout: post
 title:  "Stueck"
 short: "stueck"
+tags:
+    - "App"
+    - "iOS"
+    - "Develop"
 images: 
     - "/assets/images/stueck1.jpg"
     - "/assets/images/stueck2.jpg"

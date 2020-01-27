@@ -2,6 +2,11 @@
 layout: post
 title:  "Woca"
 short: "woca"
+tags:
+    - "App"
+    - "iOS"
+    - "Android"
+    - "Prototype"
 images: 
     - "/assets/images/cases/woca/pic1.png"
     - "/assets/images/cases/woca/pic2.png"

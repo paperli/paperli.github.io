@@ -2,6 +2,9 @@
 layout: post
 title:  "Pilotfish Mobile Website"
 short: "pilotfish-mobile"
+tags:
+    - "Web"
+    - "Prototype"
 images: 
     - "/assets/images/pf_mobile1.jpg"
     - "/assets/images/pf_mobile2.jpg"

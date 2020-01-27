@@ -2,6 +2,12 @@
 layout: post
 title:  "Fascroll"
 short: "fascroll"
+tags:
+    - "App"
+    - "AI"
+    - "AR"
+    - "iOS"
+    - "Develop"
 images: 
     - "/assets/images/cases/fascroll/pic1.png"
     - "/assets/images/cases/fascroll/pic2.png"

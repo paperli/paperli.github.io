@@ -2,6 +2,11 @@
 layout: post
 title:  "Gallery AR"
 short: "galleryar"
+tags:
+    - "App"
+    - "AR"
+    - "iOS"
+    - "Develop"
 images: 
     - "/assets/images/cases/galleryar/pic1.png"
     - "/assets/images/cases/galleryar/pic2.png"

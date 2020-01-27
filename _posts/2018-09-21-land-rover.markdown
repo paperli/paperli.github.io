@@ -2,6 +2,11 @@
 layout: post
 title:  "Land Rover China"
 short: "landrover"
+tags:
+    - "App"
+    - "iOS"
+    - "Android"
+    - "Prototype"
 images: 
     - "/assets/images/landrover1.jpg"
     - "/assets/images/landrover2.jpg"

@@ -2,6 +2,10 @@
 layout: post
 title:  "Touchbook"
 short: "touchbook"
+tags:
+    - "App"
+    - "iOS"
+    - "Prototype"
 images: 
     - "/assets/images/touchbook1.jpg"
     - "/assets/images/touchbook2.jpg"

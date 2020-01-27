@@ -2,6 +2,10 @@
 layout: post
 title:  "DDD"
 short: "ddd"
+tags:
+    - "App"
+    - "IoT"
+    - "Wired"
 images: 
     - "/assets/images/ddd_1.jpg"
     - "/assets/images/ddd_2.jpg"

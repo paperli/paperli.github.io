@@ -2,6 +2,10 @@
 layout: post
 title:  "Qute"
 short: "qute"
+tags:
+    - "App"
+    - "iOS"
+    - "Develop"
 images: 
     - "/assets/images/qute1.jpg"
     - "/assets/images/qute2.jpg"
