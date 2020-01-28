@@ -2,6 +2,10 @@
 layout: post
 title:  "Qute"
 short: "qute"
+tags:
+    - "App"
+    - "iOS"
+    - "Develop"
 images: 
     - "/assets/images/qute1.jpg"
     - "/assets/images/qute2.jpg"
@@ -10,6 +14,17 @@ images:
     - "/assets/images/qute5.jpg"
 
 ---
+[@App Store](https://itunes.apple.com/vc/app/qute-qr-code-2d-barcode-scanner/id828181167?mt=8)
+
+Qute is not just the QR code scanner. It also brings the QR code online. People can share and read the comments about the QR code from the world.
+
+The idea was from the scenarios from street. Image that you saw a QR code on the street. You realized it's shit only when you already visit through it. With Qute people can see the comments from the world about the QR code and you decide to continue or abort the visit.
+
+Beyond that, Qute keeps the scan picture and displays it as part of result. Not only for the visual, but also for the memory. People may recall where the QR code is by the surrending of the QR code in the picture.
+
+<!--more-->
+![Scan a QR code](/assets/images/qute1.jpg)
+
 [@App Store](https://itunes.apple.com/vc/app/qute-qr-code-2d-barcode-scanner/id828181167?mt=8)
 
 Qute is not just the QR code scanner. It also brings the QR code online. People can share and read the comments about the QR code from the world.

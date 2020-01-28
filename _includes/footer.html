@@ -1,35 +1,26 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
+<footer class="site-footer h-card d-flex flex-column">
+  <ul class="divider d-flex flex-row justify-content-center">
+    <li><i class="fas fa-carrot"></i></li>
+    <li><i class="fas fa-carrot"></i></li>
+    <li><i class="fas fa-carrot"></i></li>
+  </ul>
+  <ul id="links" class="flex-shrink-1 d-flex align-items-center justify-content-center">
+    <li class="link">
+      <a id="link-mail" href="mailto:paper.li@gmail.com" alt="paper.li@gmail.com" title="paper.li@gmail.com" role="button" target="_blank"></a>
+    </li>
+    <li class="link">
+      <a id="link-twitter" href="https://twitter.com/@paperli" alt="@paperli" title="@paperli" role="button" target="_blank"></a>
+    </li>
+    <li class="link">
+      <a id="link-linkedin" href="http://www.linkedin.com/in/paperli" alt="LinkedIn" title="LinkedIn" role="button" target="_blank"></a>
+    </li>
+    <li class="link">
+      <a id="link-blog" href="http://paperworkstud.io/blog/" alt="Blog" title="Blog" role="button" target="_blank"></a>
+    </li>
+    <li class="link">
+      <a id="link-cv" href="{{ '/assets/raw/cv.pdf' | relative_url }}" alt="CV" title="CV" role="button" target="_blank"></a>
+    </li>
+  </ul>
+  <p class="copyright text-center"><i class="far fa-copyright"></i> 2020 Paper Lee</p>
 
 </footer>
