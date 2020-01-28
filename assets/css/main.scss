@@ -190,6 +190,11 @@ footer ul.divider {
 
 ul#links{
 	margin:0;
+	list-style: none;
+}
+
+footer ul#links {
+	padding-left:0;
 }
 
 ul#links>li{
