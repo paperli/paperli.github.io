@@ -45,13 +45,24 @@
 
 	var container, stats, controls;
 	var camera, scene, renderer;
+	var mouse = new THREE.Vector2( 0, 0 );
+	var cameraOrbitAngle = 90;
 	const BACKGROUND_COLOR = 0x2A0F10;
 	const FOG_NEAR = 6;
 	const FOG_FAR = 16;
 	const FOG_COLOR = BACKGROUND_COLOR;
+	const CAMERA_ORBIT_RADIUS = 7.8;
+	const CAMERA_TRAVEL_SPEED = 0.1; // 1 degree per update
+	const CAMERA_LOOK_AT = new THREE.Vector3(-1.187, 2.188, -1);
+	const CAMERA_TRAVEL_RANGE = 10; // in degree
 
 	init();
 	animate();
+
+	function onMouseMove(event) {
+		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+	}
 
 	function init() {
 		container = document.createElement('div');
@@ -59,8 +70,9 @@
 		hero.appendChild(container);
 
 		camera = new THREE.PerspectiveCamera( 45, hero.offsetWidth / hero.offsetHeight, 0.25, 20);
-		camera.position.set(-0.41, 4.255, 7.795);
-		camera.rotation.set(-0.259, 0.146, 0.039);
+		camera.position.set(0, 4.255, CAMERA_ORBIT_RADIUS);
+		//camera.rotation.set(-0.259, 0.146, 0.039);
+		camera.lookAt(CAMERA_LOOK_AT);
 
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color(BACKGROUND_COLOR);
@@ -114,6 +126,23 @@
 		
 		// For getting camera's transform
 		//document.body.addEventListener('mouseup', onBodyClick, true);
+
+		// Find camera looking at point
+		/*var raycaster = new THREE.Raycaster();
+		var cameraDirection = new THREE.Vector3();
+		camera.getWorldDirection(cameraDirection);
+		raycaster.set(camera.position, cameraDirection);
+		
+		var planeGeo = new THREE.PlaneGeometry( 50, 50, 2, 2 );
+		var planeMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
+		var plane = new THREE.Mesh( planeGeo, planeMaterial);
+		plane.rotateX(-Math.PI / 2);
+		scene.add(plane);
+
+		var intersects = raycaster.intersectObject(plane);
+		for (var i = 0; i < intersects.length; i++) {
+			console.log(intersects[i].point);
+		}*/
 	}
 
 	function onWindowResize() {
@@ -134,5 +163,21 @@
 		requestAnimationFrame(animate);
 		renderer.render(scene, camera);
 
+		// orbit the camera
+
+		const shallAngle = 90 + step(mouse.x, [-1, 1], [-CAMERA_TRAVEL_RANGE, CAMERA_TRAVEL_RANGE]);
+		cameraOrbitAngle += (shallAngle - cameraOrbitAngle) * 0.1;
+		camera.position.x = CAMERA_ORBIT_RADIUS * Math.cos(cameraOrbitAngle * Math.PI / 180);
+		camera.position.z = CAMERA_ORBIT_RADIUS * Math.sin(cameraOrbitAngle* Math.PI / 180);
+		camera.lookAt(CAMERA_LOOK_AT);
 	}
+
+	function step(value, input_range, output_range) {
+		// input_range: [min, max] input
+		// output_range: [min, max] output
+		const o = output_range[0] + (value - input_range[0]) * (output_range[1] - output_range[0]) / (input_range[1] - input_range[0]);
+		return Math.min( Math.max(o ,output_range[0]), output_range[1])
+	}
+
+	window.addEventListener('mousemove', onMouseMove, false);
 </script>
