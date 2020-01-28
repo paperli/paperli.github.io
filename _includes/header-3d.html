@@ -82,7 +82,6 @@
 		var loader = new GLTFLoader().setPath("{{ '/assets/models/vr/' | relative_url }}");
 		loader.load('vr_playground.gltf', function(gltf) {
 			// load successful
-			console.log("Load gltf successful");
 			var light_count = 0;
 			gltf.scene.traverse(function(child) {
 				if (child.isLight) {
@@ -96,7 +95,7 @@
 					}
 					
 				} else if (child.isMesh) {
-					console.log("current node: " + child.name);
+					//console.log("current node: " + child.name);
 					// Only stage receives shadow but don't cast shadow
 					// TODO: Only headset casts shadow? To reduce performance impact
 					child.receiveShadow = (child.name == "Stage") ? true : false;
