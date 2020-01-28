@@ -1,8 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
-@import "minima";
+$fa-font-path: "fonts/font-awesome/";
+@import 'font-awesome';
 
 $primary-text-color:#2B2D2D;
 
@@ -13,23 +13,32 @@ html, body {
 body {
 	margin:0;
 	padding:0;
-	font-family: 'Mukta', sans-serif;
+	font-family: 'Taviraj', serif;
 	font-size: 16px;
 	color:$primary-text-color;
 	background: #fff;
 }
 
-h1{
-	font-weight: 700;
+img {
+	max-width: 100%;
+}
+
+.hero h1 {
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
 	font-size: 3rem;
 }
 
+h1{
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	font-size: 2.75rem;
+}
+
 h2 {
-	font-weight: normal;
-	font-size: 2.6rem;
-	font-family: 'Abril Fatface', cursive;
+	font-weight: 700;
+	font-size: 2.25rem;
+	font-family: 'Playfair Display', serif;
 }
 
 h3 {
@@ -52,6 +61,70 @@ a:hover {
 a:visited {
 	color:$primary-text-color;
 	text-decoration:underline;
+}
+
+.navbar-brand {
+	text-decoration: none;
+	border:none;
+	overflow: visible;
+	text-align: center;
+	margin:0;
+	-webkit-transition: color 0.8s ease-out;
+	-moz-transition: color 0.8s ease-out;
+	-o-transition: color 0.8s ease-out;
+	transition: color 0.8s ease-out;
+}
+
+.navbar-brand:hover {
+	color:#871a8a;
+}
+
+.navbar-brand > .brand {
+	font-family: "Lobster Two", cursive;
+	font-size: 48px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.navbar-brand > .tagline {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.tagline > span:not(:last-child)::after {
+	font-family:"Font Awesome 5 Free";
+	content: "\f621";
+	font-weight:700;
+	padding:0 8px 2px;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	font-size:10px;
+	color:rgba(0,0,0,0.2);
+}
+
+footer {
+	padding: 0 0.5rem 1.5rem;
+}
+
+footer ul.divider > li {
+	list-style: none;
+	margin: 0 12px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.2);
+}
+
+footer ul.divider {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 42px;
+}
+
+.copyright {
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8em;
+	color: rgba(0, 0, 0, 0.48);
 }
 
 .hero {
@@ -77,6 +150,10 @@ a:visited {
 	height: 100%;
 	pointer-events:none;
 	user-select: none;
+}
+
+.hero .personal-info {
+	font-family: "Montserrat", sans-serif;
 }
 
 .hero .name-box {
@@ -160,6 +237,8 @@ ul#links>li{
 ul.description{
 	margin-left:0.75rem;
 	margin-bottom:0;
+	padding-left:0;
+	list-style: none;
 }
 
 ul.description>li{
@@ -179,7 +258,6 @@ ul.description>li{
 
 .cases {
 	margin-top:2rem;
-	margin-bottom:2rem;
 }
 
 .cases .card {
@@ -273,9 +351,43 @@ ul.description>li{
 	text-align:center;
 }
 
+article {
+	padding: 1.5em 1em;
+}
+
+article.post {
+	max-width: 44em;
+}
+
+article img {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+article .post-title {
+	margin-bottom: 0.4em;
+}
+
+.tags > .tag:not(:last-child)::after {
+	font-family:"Font Awesome 5 Free";
+	content: "\f621";
+	font-weight:700;
+	padding:0 8px 2px;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	font-size:0.7rem;
+	color:rgba(0,0,0,0.2);
+}
+
+.tag {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
 @media (max-width: 767.98px) {
 
   h1{
-	font-size: 3.6em;
+	font-size: 2.75em;
   }
 }

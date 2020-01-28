@@ -2,6 +2,9 @@
 layout: post
 title:  "MobiApps"
 short: "mobiapps"
+tags:
+    - "App"
+    - "iOS"
 images: 
     - "/assets/images/mobiapps-1.jpg"
     - "/assets/images/mobiapps-2.jpg"
@@ -12,6 +15,28 @@ images:
     - "/assets/images/mobiapps-7.jpg"
 
 ---
-[Mobiapps @App Store](https://itunes.apple.com/tw/app/ding-hao/id577065907?mt=8)
+[Mobiapps @App Store](https://itunes.apple.com/tw/app/ding-hao/id577065907)
 
-In end of 2012, I joined the joyful team MobiApps to lead the UX and UI design. We server the mobile app for retail sale and small business. With rapid design pattern, the mobile app can be prompt built and delivered. The flexibility of the team allowed me to break out serveral concepts including smart no-content mode, social biz UI, etc.. Still, I used variable tools like Dropbox or TAP to rapidly test new concept.
+<!--summary-->
+
+In end of 2012, I start leading the UX and UI design team in MobiApps. MobiApps helps the clients to build mobile apps for retail sale and small business. With templating design system, the mobile app can be quickly built and delivered. The flexibility of the team aims to create cutting-edge concepts, for example, smart no-content mode, social biz UI, etc.. Yet, the variety of prototyping tools are used to quickly test and prove concepts.
+
+<!--more-->
+
+![MobiApps](/assets/images/mobiapps-1.jpg)
+
+[Mobiapps @App Store](https://itunes.apple.com/tw/app/ding-hao/id577065907)
+
+In end of 2012, I start leading the UX and UI design team in MobiApps. MobiApps helps the clients to build mobile apps for retail sale and small business. With templating design system, the mobile app can be quickly built and delivered. The flexibility of the team aims to create cutting-edge concepts, for example, smart no-content mode, social biz UI, etc.. Yet, the variety of prototyping tools are used to quickly test and prove concepts.
+
+![MobiApps](/assets/images/mobiapps-2.jpg)
+
+![MobiApps](/assets/images/mobiapps-3.jpg)
+
+![MobiApps](/assets/images/mobiapps-4.jpg)
+
+![MobiApps](/assets/images/mobiapps-5.jpg)
+
+![MobiApps](/assets/images/mobiapps-6.jpg)
+
+![MobiApps](/assets/images/mobiapps-7.jpg)
