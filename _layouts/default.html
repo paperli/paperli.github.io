@@ -4,8 +4,11 @@
   {%- include head.html -%}
 
   <body>
+  	{%- include nav.html -%}
 
     {{ content }}
+
+    {%- include footer.html -%}
 
     <script src="{{ '/assets/js/tilt.jquery.min.js' | relative_url }}"></script>
   </body>
