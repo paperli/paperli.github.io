@@ -3,7 +3,6 @@
 ---
 $fa-font-path: "fonts/font-awesome/";
 @import 'font-awesome';
-@import "minima";
 
 $primary-text-color:#2B2D2D;
 
@@ -14,7 +13,7 @@ html, body {
 body {
 	margin:0;
 	padding:0;
-	font-family: 'Sawarabi Mincho', sans-serif;
+	font-family: 'Taviraj', serif;
 	font-size: 16px;
 	color:$primary-text-color;
 	background: #fff;
@@ -32,8 +31,8 @@ h1{
 }
 
 h2 {
-	font-weight: normal;
-	font-size: 2.6rem;
+	font-weight: 700;
+	font-size: 2.25rem;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -57,6 +56,37 @@ a:hover {
 a:visited {
 	color:$primary-text-color;
 	text-decoration:underline;
+}
+
+.navbar-brand {
+	text-decoration: none;
+	border:none;
+	overflow: visible;
+	text-align: center;
+}
+
+.navbar-brand > .brand {
+	font-family: "Lobster Two", cursive;
+	font-size: 48px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.navbar-brand > .tagline {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.tagline > span:not(:last-child)::after {
+	font-family:"Font Awesome 5 Free";
+	content: "\f621";
+	font-weight:700;
+	padding:0 8px 2px;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	font-size:10px;
+	color:rgba(0,0,0,0.2);
 }
 
 .hero {
@@ -278,8 +308,16 @@ ul.description>li{
 	text-align:center;
 }
 
+article {
+	padding: 1.5em 1em;
+}
+
 article.post {
 	max-width: 44em;
+}
+
+article img {
+	width: 100%;
 }
 
 .tags > .tag:not(:last-child)::after {
