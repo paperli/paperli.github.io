@@ -16,11 +16,22 @@ images:
 ---
 [@App Store](https://apps.apple.com/tw/app/woca/id1147139866)
 
-Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things. It also helps you to remember them firmly. The camera inside the app is empowered by AI and embraces AR technology. It's also the platform for Diing, the Taipei-based IOT/AI startup, to explore the edge technologies.
+<!--summary-->
+
+Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things and the app just helps you to remember them firmly. The camera inside the app is empowered by AI and AR technologies. It's yet another platform for Diing, the Taipei-based IOT/AI startup, to explore the cutting-edge technologies.
 
 <!--more-->
+
 ![Woca](/assets/images/cases/woca/pic1.png)
 
 [@App Store](https://apps.apple.com/tw/app/woca/id1147139866)
 
-Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things. It also helps you to remember them firmly. The camera inside the app is empowered by AI and embraces AR technology. It's also the platform for Diing, the Taipei-based IOT/AI startup, to explore the edge technologies.
+Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things and the app just helps you to remember them firmly.
+
+![Woca](/assets/images/cases/woca/pic2.png)
+
+The camera inside the app is empowered by AI and AR technologies. It's yet another platform for Diing, the Taipei-based IOT/AI startup, to explore the cutting-edge technologies.
+
+![Woca](/assets/images/cases/woca/pic3.png)
+
+![Woca](/assets/images/cases/woca/pic4.png)

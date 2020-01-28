@@ -18,6 +18,8 @@ images:
 ---
 Land Rover China was building their manufacturing chain in China. In MobiApps, we cooperated with Shanghai team and developed the sales channel system for customers and dealers. With our interaction model, service agents and car owners could communicate through instant messaging and managing service booking in hand.
 
+<!--summary-->
+
 The clever of the model solved the difficulty of integration of multiple dealer's management system. It also improved Land Rover China's control on first-hand saleforce and customer feedback.
 
 <!--more-->
@@ -25,4 +27,14 @@ The clever of the model solved the difficulty of integration of multiple dealer'
 
 Land Rover China was building their manufacturing chain in China. In MobiApps, we cooperated with Shanghai team and developed the sales channel system for customers and dealers. With our interaction model, service agents and car owners could communicate through instant messaging and managing service booking in hand.
 
+![Land Rover China](/assets/images/landrover2.jpg)
+
 The clever of the model solved the difficulty of integration of multiple dealer's management system. It also improved Land Rover China's control on first-hand saleforce and customer feedback.
+
+![Land Rover China](/assets/images/landrover3.jpg)
+
+![Land Rover China](/assets/images/landrover4.jpg)
+
+![Land Rover China](/assets/images/landrover5.jpg)
+
+![Land Rover China](/assets/images/landrover6.jpg)

@@ -17,11 +17,21 @@ images:
 ---
 [@App Store](https://apps.apple.com/app/fascroll/id1443704703)
 
-Facroll frees your hands when you browse the website. By using iPhone's face recognition technology and AI-learning Fasture library, you use your facial expression to surf among websites. The Fasture libray is empowered by Apple's CoreML technology and improves the recognition of facial expressions with collected data. The app is the working demo for the conjunction of AI and AR technoloies.
+<!--summary-->
+
+Facroll frees your hands when you browse the websites. By using iPhone's face recognition technology and AI-powered Fasture library, you can use your facial expressions to surf in the webpages. The Fasture libray is empowered by Apple's CoreML technology and improves the recognition ability to facial expressions overtime. The app is also the working showcase to demostrate how to integrate these two treding techologies to good user experience.
 
 <!--more-->
 ![Web surfing with your face](/assets/images/cases/woca/pic1.png)
 
 [@App Store](https://apps.apple.com/app/fascroll/id1443704703)
 
-Facroll frees your hands when you browse the website. By using iPhone's face recognition technology and AI-learning Fasture library, you use your facial expression to surf among websites. The Fasture libray is empowered by Apple's CoreML technology and improves the recognition of facial expressions with collected data. The app is the working demo for the conjunction of AI and AR technoloies.
+Facroll frees your hands when you browse the websites. By using iPhone's face recognition technology and AI-powered Fasture library, you can use your facial expressions to surf in the webpages.
+
+![Web surfing with your face](/assets/images/cases/woca/pic2.png)
+
+The Fasture libray is empowered by Apple's CoreML technology and improves the recognition ability to facial expressions overtime. The app is also the working showcase to demostrate how to integrate these two treding techologies to good user experience.
+
+![Web surfing with your face](/assets/images/cases/woca/pic3.png)
+
+![Web surfing with your face](/assets/images/cases/woca/pic4.png)
