@@ -4,6 +4,24 @@
 
 $primary-text-color:#2B2D2D;
 
+@font-face {
+	font-family: FontAwesome;
+	src: url("/assets/fonts/font-awesome/fa-regular-400.woff");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: FontAwesome;
+	src: url("/assets/fonts/font-awesome/fa-solid-900.woff");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: FontAwesome;
+	src: url("/assets/fonts/font-awesome/fa-brands-400.woff");
+	font-weight: 300;
+}
+
 html, body {
 	height:100%;
 }
@@ -90,9 +108,9 @@ a:visited {
 }
 
 .tagline > span:not(:last-child)::after {
-	font-family:"Font Awesome 5 Free";
+	font-family:"FontAwesome";
 	content: "\f621";
-	font-weight:700;
+	font-weight:900;
 	padding:0 8px 2px;
 	display:inline-block;
 	vertical-align:middle;
@@ -367,9 +385,9 @@ article .post-title {
 }
 
 .tags > .tag:not(:last-child)::after {
-	font-family:"Font Awesome 5 Free";
+	font-family:"FontAwesome";
 	content: "\f621";
-	font-weight:700;
+	font-weight:900;
 	padding:0 8px 2px;
 	display:inline-block;
 	vertical-align:middle;
