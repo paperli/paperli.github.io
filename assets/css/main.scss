@@ -22,12 +22,13 @@ body {
 .hero h1 {
 	font-family: 'Lobster Two', cursive;
 	font-style: italic;
+	font-size: 3rem;
 }
 
 h1{
 	font-weight: 700;
 	font-family: 'Playfair Display', serif;
-	font-size: 3rem;
+	font-size: 2.75rem;
 }
 
 h2 {
@@ -63,6 +64,15 @@ a:visited {
 	border:none;
 	overflow: visible;
 	text-align: center;
+	margin:0;
+	-webkit-transition: color 0.8s ease-out;
+	-moz-transition: color 0.8s ease-out;
+	-o-transition: color 0.8s ease-out;
+	transition: color 0.8s ease-out;
+}
+
+.navbar-brand:hover {
+	color:#15A5BE;
 }
 
 .navbar-brand > .brand {
@@ -318,6 +328,11 @@ article.post {
 
 article img {
 	width: 100%;
+	border-radius: 4px;
+}
+
+article .post-title {
+	margin-bottom: 0.4em;
 }
 
 .tags > .tag:not(:last-child)::after {
@@ -340,6 +355,6 @@ article img {
 @media (max-width: 767.98px) {
 
   h1{
-	font-size: 3.6em;
+	font-size: 2.75em;
   }
 }
