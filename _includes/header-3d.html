@@ -160,15 +160,15 @@
 
 	function animate() {
 		requestAnimationFrame(animate);
-		renderer.render(scene, camera);
 
 		// orbit the camera
-
 		const shallAngle = 90 + step(mouse.x, [-1, 1], [-CAMERA_TRAVEL_RANGE, CAMERA_TRAVEL_RANGE]);
 		cameraOrbitAngle += (shallAngle - cameraOrbitAngle) * 0.1;
 		camera.position.x = CAMERA_ORBIT_RADIUS * Math.cos(cameraOrbitAngle * Math.PI / 180);
 		camera.position.z = CAMERA_ORBIT_RADIUS * Math.sin(cameraOrbitAngle* Math.PI / 180);
 		camera.lookAt(CAMERA_LOOK_AT);
+
+		renderer.render(scene, camera);
 	}
 
 	function step(value, input_range, output_range) {
