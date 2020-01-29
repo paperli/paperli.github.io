@@ -59,11 +59,6 @@
 	init();
 	animate();
 
-	function onMouseMove(event) {
-		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-	}
-
 	function init() {
 		container = document.createElement('div');
 		var hero = document.getElementById('hero');
@@ -144,6 +139,33 @@
 		}*/
 	}
 
+	function onMouseMove(event) {
+		mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+		mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+	}
+
+	function onTouchMove(event) {
+		if (event.touches.length != 2) {
+			return;
+		}
+
+		event.preventDefault();
+		const touchCenter = new THREE.Vector2( (event.touches[0].clientX + event.touches[1].clientX) / 2, (event.touches[0].clientY + event.touches[1].clientY) / 2 );
+		mouse.x = (touchCenter.x / window.innerWidth) * 2 - 1;
+		mouse.y = - (touchCenter.y / window.innerHeight) * 2 + 1;
+
+	}
+
+	function onSingleTouchMove(event) {
+		if (event.touches.length > 1) {
+			return;
+		}
+
+		event.preventDefault();
+		mouse.x = (event.touches[0].clientX / window.innerWidth) * 2 - 1;
+		mouse.y = - (event.touches[0].clientY / window.innerHeight) * 2 + 1;
+	}
+
 	function onWindowResize() {
 		var hero = document.getElementById('hero');
 		camera.aspect = hero.offsetHeight / hero.offsetHeight;
@@ -179,4 +201,5 @@
 	}
 
 	window.addEventListener('mousemove', onMouseMove, false);
+	container.addEventListener('touchmove', onSingleTouchMove, false);
 </script>
