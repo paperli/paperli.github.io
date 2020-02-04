@@ -6,7 +6,10 @@ $(function(){
 		swipeRight:function(evt) {
 			$(this).carousel('prev');
 		}
-	})
+	});
+
+	// enable bricklayer
+	var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
 });
 
 function goViewer(images) {
