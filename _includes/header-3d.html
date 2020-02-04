@@ -115,8 +115,8 @@
 
 		// Disable window resizing to avoid weird stretching of canvas
 		// TOFIX: handle window resizing
-		//window.addEventListener('resize', onWindowResize, false);
-		//window.addEventListener('orientationchange', onWindowResize, false);
+		window.addEventListener('resize', onWindowResize, false);
+		window.addEventListener('orientationchange', onWindowResize, false);
 		
 		// For getting camera's transform
 		//document.body.addEventListener('mouseup', onBodyClick, true);
@@ -168,10 +168,12 @@
 
 	function onWindowResize() {
 		var hero = document.getElementById('hero');
-		camera.aspect = hero.offsetHeight / hero.offsetHeight;
+		// Below code will cause distortion on canvas
+		camera.aspect = hero.offsetWidth / hero.offsetHeight;
 		camera.updateProjectionMatrix();
 
 		renderer.setSize(hero.offsetWidth, hero.offsetHeight);
+		renderer.render(scene, camera);
 	}
 
 	function onBodyClick() {
