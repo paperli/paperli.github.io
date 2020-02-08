@@ -28,9 +28,11 @@ Gallery AR turns the wall, the room, the house or even the city to the gallery w
 
 Gallery AR turns the wall, the room, the house or even the city to the gallery with bunch of famous masterpieces. The app integrates the open art databases from Chicago Art Institute and places the art masterpieces on the walls in your space.
 
-![Gallery AR](/assets/images/cases/galleryar/pic4.png)
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/jRIM_wwFRJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 As easy as holding the phone against the wall and start the art tour right away. Try walking as close as you can and don't worry to be kicked out by the secuity guard. Just be careful with the walls ;)
+
+![Gallery AR](/assets/images/cases/galleryar/pic4.png)
 
 ![Gallery AR](/assets/images/cases/galleryar/pic2.png)
 

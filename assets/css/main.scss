@@ -266,6 +266,20 @@ ul.description>li{
 	list-style:none;
 }
 
+.video-embed {
+	padding:56.25% 0 0 0; // 16:9
+	position:relative;
+	margin-bottom:1rem;
+}
+
+.video-embed > iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 .gallery {
 	overflow:hidden;
 }
