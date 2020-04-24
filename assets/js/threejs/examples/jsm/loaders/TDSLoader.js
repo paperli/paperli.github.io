@@ -374,7 +374,7 @@ TDSLoader.prototype = Object.assign( Object.create( Loader.prototype ), {
 
 				}
 
-				geometry.addAttribute( 'position', new Float32BufferAttribute( vertices, 3 ) );
+				geometry.setAttribute( 'position', new Float32BufferAttribute( vertices, 3 ) );
 
 			} else if ( next === FACE_ARRAY ) {
 
@@ -398,7 +398,7 @@ TDSLoader.prototype = Object.assign( Object.create( Loader.prototype ), {
 
 				}
 
-				geometry.addAttribute( 'uv', new Float32BufferAttribute( uvs, 2 ) );
+				geometry.setAttribute( 'uv', new Float32BufferAttribute( uvs, 2 ) );
 
 
 			} else if ( next === MESH_MATRIX ) {
@@ -441,8 +441,8 @@ TDSLoader.prototype = Object.assign( Object.create( Loader.prototype ), {
 				matrix.transpose();
 
 				var inverse = new Matrix4();
-				inverse.getInverse( matrix, true );
-				geometry.applyMatrix( inverse );
+				inverse.getInverse( matrix );
+				geometry.applyMatrix4( inverse );
 
 				matrix.decompose( mesh.position, mesh.quaternion, mesh.scale );
 

@@ -4,11 +4,17 @@
 
 THREE.TransformControls = function ( camera, domElement ) {
 
+	if ( domElement === undefined ) {
+
+		console.warn( 'THREE.TransformControls: The second parameter "domElement" is now mandatory.' );
+		domElement = document;
+
+	}
+
 	THREE.Object3D.call( this );
 
-	domElement = ( domElement !== undefined ) ? domElement : document;
-
 	this.visible = false;
+	this.domElement = domElement;
 
 	var _gizmo = new THREE.TransformControlsGizmo();
 	this.add( _gizmo );
@@ -29,6 +35,7 @@ THREE.TransformControls = function ( camera, domElement ) {
 	defineProperty( "mode", "translate" );
 	defineProperty( "translationSnap", null );
 	defineProperty( "rotationSnap", null );
+	defineProperty( "scaleSnap", null );
 	defineProperty( "space", "world" );
 	defineProperty( "size", 1 );
 	defineProperty( "dragging", false );
@@ -199,7 +206,17 @@ THREE.TransformControls = function ( camera, domElement ) {
 		if ( this.object !== undefined ) {
 
 			this.object.updateMatrixWorld();
-			this.object.parent.matrixWorld.decompose( parentPosition, parentQuaternion, parentScale );
+
+			if ( this.object.parent === null ) {
+
+				console.error( 'TransformControls: The attached 3D object must be a part of the scene graph.' );
+
+			} else {
+
+				this.object.parent.matrixWorld.decompose( parentPosition, parentQuaternion, parentScale );
+
+			}
+
 			this.object.matrixWorld.decompose( worldPosition, worldQuaternion, worldScale );
 
 			parentQuaternionInv.copy( parentQuaternion ).inverse();
@@ -454,6 +471,28 @@ THREE.TransformControls = function ( camera, domElement ) {
 
 			object.scale.copy( scaleStart ).multiply( _tempVector2 );
 
+			if ( this.scaleSnap ) {
+
+				if ( axis.search( 'X' ) !== - 1 ) {
+
+					object.scale.x = Math.round( object.scale.x / this.scaleSnap ) * this.scaleSnap || this.scaleSnap;
+
+				}
+
+				if ( axis.search( 'Y' ) !== - 1 ) {
+
+					object.scale.y = Math.round( object.scale.y / this.scaleSnap ) * this.scaleSnap || this.scaleSnap;
+
+				}
+
+				if ( axis.search( 'Z' ) !== - 1 ) {
+
+					object.scale.z = Math.round( object.scale.z / this.scaleSnap ) * this.scaleSnap || this.scaleSnap;
+
+				}
+
+			}
+
 		} else if ( mode === 'rotate' ) {
 
 			offset.copy( pointEnd ).sub( pointStart );
@@ -628,6 +667,12 @@ THREE.TransformControls = function ( camera, domElement ) {
 
 	};
 
+	this.setScaleSnap = function ( scaleSnap ) {
+
+		scope.scaleSnap = scaleSnap;
+
+	};
+
 	this.setSize = function ( size ) {
 
 		scope.size = size;
@@ -746,7 +791,7 @@ THREE.TransformControlsGizmo = function () {
 	var scaleHandleGeometry = new THREE.BoxBufferGeometry( 0.125, 0.125, 0.125 );
 
 	var lineGeometry = new THREE.BufferGeometry( );
-	lineGeometry.addAttribute( 'position', new THREE.Float32BufferAttribute( [ 0, 0, 0,	1, 0, 0 ], 3 ) );
+	lineGeometry.setAttribute( 'position', new THREE.Float32BufferAttribute( [ 0, 0, 0,	1, 0, 0 ], 3 ) );
 
 	var CircleGeometry = function ( radius, arc ) {
 
@@ -759,7 +804,7 @@ THREE.TransformControlsGizmo = function () {
 
 		}
 
-		geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
+		geometry.setAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
 
 		return geometry;
 
@@ -771,7 +816,7 @@ THREE.TransformControlsGizmo = function () {
 
 		var geometry = new THREE.BufferGeometry();
 
-		geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( [ 0, 0, 0, 1, 1, 1 ], 3 ) );
+		geometry.setAttribute( 'position', new THREE.Float32BufferAttribute( [ 0, 0, 0, 1, 1, 1 ], 3 ) );
 
 		return geometry;
 
@@ -1029,7 +1074,7 @@ THREE.TransformControlsGizmo = function () {
 				object.updateMatrix();
 
 				var tempGeometry = object.geometry.clone();
-				tempGeometry.applyMatrix( object.matrix );
+				tempGeometry.applyMatrix4( object.matrix );
 				object.geometry = tempGeometry;
 				object.renderOrder = Infinity;
 

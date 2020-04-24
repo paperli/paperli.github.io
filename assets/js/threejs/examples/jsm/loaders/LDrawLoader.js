@@ -95,10 +95,10 @@ var LDrawLoader = ( function () {
 		#include <color_fragment>
 		outgoingLight = diffuseColor.rgb; // simple shader
 		gl_FragColor = vec4( outgoingLight, diffuseColor.a );
-		#include <premultiplied_alpha_fragment>
 		#include <tonemapping_fragment>
 		#include <encodings_fragment>
 		#include <fog_fragment>
+		#include <premultiplied_alpha_fragment>
 	}
 	`;
 
@@ -468,11 +468,11 @@ var LDrawLoader = ( function () {
 
 		}
 
-		bufferGeometry.addAttribute( 'position', new Float32BufferAttribute( positions, 3 ) );
+		bufferGeometry.setAttribute( 'position', new Float32BufferAttribute( positions, 3 ) );
 
 		if ( elementSize === 3 ) {
 
-			bufferGeometry.addAttribute( 'normal', new Float32BufferAttribute( normals, 3 ) );
+			bufferGeometry.setAttribute( 'normal', new Float32BufferAttribute( normals, 3 ) );
 
 		}
 
@@ -526,9 +526,9 @@ var LDrawLoader = ( function () {
 
 			}
 
-			bufferGeometry.addAttribute( 'control0', new BufferAttribute( controlArray0, 3, false ) );
-			bufferGeometry.addAttribute( 'control1', new BufferAttribute( controlArray1, 3, false ) );
-			bufferGeometry.addAttribute( 'direction', new BufferAttribute( directionArray, 3, false ) );
+			bufferGeometry.setAttribute( 'control0', new BufferAttribute( controlArray0, 3, false ) );
+			bufferGeometry.setAttribute( 'control1', new BufferAttribute( controlArray1, 3, false ) );
+			bufferGeometry.setAttribute( 'direction', new BufferAttribute( directionArray, 3, false ) );
 
 		}
 
@@ -1048,8 +1048,6 @@ var LDrawLoader = ( function () {
 
 		objectParse: function ( text ) {
 
-			//console.time( 'LDrawLoader' );
-
 			// Retrieve data from the parent parse scope
 			var parentParseScope = this.getParentParseScope();
 
@@ -1194,40 +1192,36 @@ var LDrawLoader = ( function () {
 
 									type = lp.getToken();
 
-									if ( ! parsingEmbeddedFiles ) {
+									currentParseScope.triangles = [];
+									currentParseScope.lineSegments = [];
+									currentParseScope.conditionalSegments = [];
+									currentParseScope.type = type;
 
-										currentParseScope.triangles = [];
-										currentParseScope.lineSegments = [];
-										currentParseScope.conditionalSegments = [];
-										currentParseScope.type = type;
+									var isRoot = ! parentParseScope.isFromParse;
+									if ( isRoot || scope.separateObjects && ! isPrimitiveType( type ) ) {
 
-										var isRoot = ! parentParseScope.isFromParse;
-										if ( isRoot || scope.separateObjects && ! isPrimitiveType( type ) ) {
+										currentParseScope.groupObject = new Group();
 
-											currentParseScope.groupObject = new Group();
-
-											currentParseScope.groupObject.userData.startingConstructionStep = currentParseScope.startingConstructionStep;
-
-										}
-
-										// If the scale of the object is negated then the triangle winding order
-										// needs to be flipped.
-										var matrix = currentParseScope.matrix;
-										if (
-											matrix.determinant() < 0 && (
-												scope.separateObjects && isPrimitiveType( type ) ||
-												! scope.separateObjects
-											) ) {
-
-											currentParseScope.inverted = ! currentParseScope.inverted;
-
-										}
-
-										triangles = currentParseScope.triangles;
-										lineSegments = currentParseScope.lineSegments;
-										conditionalSegments = currentParseScope.conditionalSegments;
+										currentParseScope.groupObject.userData.startingConstructionStep = currentParseScope.startingConstructionStep;
 
 									}
+
+									// If the scale of the object is negated then the triangle winding order
+									// needs to be flipped.
+									var matrix = currentParseScope.matrix;
+									if (
+										matrix.determinant() < 0 && (
+											scope.separateObjects && isPrimitiveType( type ) ||
+											! scope.separateObjects
+										) ) {
+
+										currentParseScope.inverted = ! currentParseScope.inverted;
+
+									}
+
+									triangles = currentParseScope.triangles;
+									lineSegments = currentParseScope.lineSegments;
+									conditionalSegments = currentParseScope.conditionalSegments;
 
 									break;
 

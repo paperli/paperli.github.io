@@ -18,37 +18,38 @@
 
 		</p>
 
-
-		<h2>示例</h2>
-
-		<p>[example:misc_controls_orbit misc / controls / orbit ]</p>
+		<h2>代码示例</h2>
 
 		<code>
-var renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+		var renderer = new THREE.WebGLRenderer();
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );
 
-var scene = new THREE.Scene();
+		var scene = new THREE.Scene();
 
-var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
+		var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
 
-var controls = new THREE.OrbitControls( camera, renderer.domElement );
+		var controls = new OrbitControls( camera, renderer.domElement );
 
-//controls.update() must be called after any manual changes to the camera's transform
-camera.position.set( 0, 20, 100 );
-controls.update();
+		//controls.update() must be called after any manual changes to the camera's transform
+		camera.position.set( 0, 20, 100 );
+		controls.update();
 
-function animate() {
+		function animate() {
 
-	requestAnimationFrame( animate );
+			requestAnimationFrame( animate );
 
-	// required if controls.enableDamping or controls.autoRotate are set to true
-	controls.update();
+			// required if controls.enableDamping or controls.autoRotate are set to true
+			controls.update();
 
-	renderer.render( scene, camera );
+			renderer.render( scene, camera );
 
-}
+		}
 		</code>
+
+		<h2>例子</h2>
+
+		<p>[example:misc_controls_orbit misc / controls / orbit ]</p>
 
 		<h2>Constructor</h2>
 
@@ -56,8 +57,7 @@ function animate() {
 		<p>
 			[page:Camera object]: （必须）将要被控制的相机。该相机不允许是其他任何对象的子级，除非该对象是场景自身。<br><br>
 
-			[page:HTMLDOMElement domElement]: （可选）用于事件监听的HTML元素，其默认值为整个文档，
-			但是如果你只希望在特定的元素上（例如Canvas上）进行控制，在这里进行指定即可。
+			[page:HTMLDOMElement domElement]: The HTML element used for event listeners.
 		</p>
 
 
@@ -85,7 +85,7 @@ function animate() {
 		<h3>[property:HTMLDOMElement domElement]</h3>
 		<p>
 			用于监听鼠标事件或触摸事件的HTMLDOMElement（DOM元素）。该值必须在构造函数中进行传入；
-			在此更改它将不会设置新的事件监听器。默认值是整个文档。
+			在此更改它将不会设置新的事件监听器
 		</p>
 
 		<h3>[property:Boolean enabled]</h3>
@@ -292,7 +292,7 @@ controls.touches = {
 		<h2>源代码</h2>
 
 		<p>
-			[link:https://github.com/mrdoob/three.js/blob/master/examples/js/controls/OrbitControls.js examples/js/controls/OrbitControls.js]
+			[link:https://github.com/mrdoob/three.js/blob/master/examples/jsm/controls/OrbitControls.js examples/jsm/controls/OrbitControls.js]
 		</p>
 	</body>
 </html>

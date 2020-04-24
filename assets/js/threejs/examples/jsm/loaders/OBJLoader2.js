@@ -9,7 +9,7 @@ import {
 	Loader
 } from "../../../build/three.module.js";
 
-import { OBJLoader2Parser } from "./obj2/worker/parallel/OBJLoader2Parser.js";
+import { OBJLoader2Parser } from "./obj2/OBJLoader2Parser.js";
 import { MeshReceiver } from "./obj2/shared/MeshReceiver.js";
 import { MaterialHandler } from "./obj2/shared/MaterialHandler.js";
 
@@ -43,7 +43,7 @@ const OBJLoader2 = function ( manager ) {
 
 };
 
-OBJLoader2.OBJLOADER2_VERSION = '3.1.0';
+OBJLoader2.OBJLOADER2_VERSION = '3.2.0';
 console.info( 'Using OBJLoader2 version: ' + OBJLoader2.OBJLOADER2_VERSION );
 
 
@@ -136,11 +136,12 @@ OBJLoader2.prototype = Object.assign( Object.create( Loader.prototype ), {
 	 * Add materials as associated array.
 	 *
 	 * @param {Object} materials Object with named {@link Material}
+	 * @param overrideExisting boolean Override existing material
 	 * @return {OBJLoader2}
 	 */
-	addMaterials: function ( materials ) {
+	addMaterials: function ( materials, overrideExisting ) {
 
-		this.materialHandler.addMaterials( materials );
+		this.materialHandler.addMaterials( materials, overrideExisting );
 		return this;
 
 	},
@@ -264,8 +265,7 @@ OBJLoader2.prototype = Object.assign( Object.create( Loader.prototype ), {
 		if ( urlParts.length > 2 ) {
 
 			filename = urlParts[ urlParts.length - 1 ];
-			let urlPartsPath = urlParts.slice( 0, urlParts.length - 1 ).join( '/' ) + '/';
-			if ( urlPartsPath !== undefined && urlPartsPath !== null ) this.path = urlPartsPath;
+			this.path = urlParts.slice( 0, urlParts.length - 1 ).join( '/' ) + '/';
 
 		}
 		if ( onFileLoadProgress === null || onFileLoadProgress === undefined || ! ( onFileLoadProgress instanceof Function ) ) {
