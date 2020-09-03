@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Bubbles"
+short: "bubbles"
+tags:
+    - "VR"
+    - "Hand Tracking"
+    - "Oculus"
+images: 
+    - "/assets/images/cases/bubbles/promo.jpg"
+
+---
+<!--summary-->
+
+Bubbles creates the playground for people to play around the bubbles in the virtual realism space. You can poke the floating soap bubbles by your hands to blow it up. When I say hands, I mean it literally. The experience uses Oculus Quest's hand tracking API to let you poke the bubbles or interact in the field by your bare hands. To mimic bubble physics, Bubbles applies metaball shading to create the "organic" shape dynamically to the bubble. And when you poke it, it blows up with a designate animation and the companion sound. 
+
+<!--more-->
+![Play bubbles in VR and have fun](/assets/images/cases/bubbles/promo.jpg)
+
+Once up a time, I walked along the beach in Long Beach. There was a street artist playing soap bubbles, and a bunch of kids surrendered her with joyful smiles. The whole community was under soft lockdown during the time, and the joyful laughs sound like the innocent voice to defeat the disease. Inspired from experience, I start constructing the idea to create the soap bubble poking game in VR. 
+
+Bubbles creates the playground for people to play around the bubbles in the virtual realism space. You can poke the floating soap bubbles by your hands to blow it up. When I say hands, I mean it literally. The experience uses Oculus Quest's hand tracking API to let you poke the bubbles or interact in the field by your bare hands. To mimic bubble physics, Bubbles applies metaball shading to create the "organic" shape dynamically to the bubble. And when you poke it, it blows up with a designate animation and the companion sound. 
+
+<div style="padding:100% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/454488518?color=c9ff23&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+People do want to move around regardless of the border in the VR experience. I made two approaches for teleporting by the hand tracking. The first one uses only one hand to aim and trigger teleporting. In this approach, you pinch the right hand with thumb and index finger to aim to the destination, and then release the gesture to teleport. This approach is easier to learn and remember, but it often triggers accidental teleporting.
+
+<div style="padding:100% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/454514195?color=c9ff23&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+The second approach uses your one hand to aim and another to "confirm" the teleporting. You start by pinching the right hand with thumb and index finger to aim to the destination. Then you pinch the left hand and release the gesture to teleport. The combination is more complicated, but it significantly prevents accidental triggers of teleporting. And another finding is that it's better to have two-steps confirmation for the left-hand gesture. Like the general button element, there shall be the "pinch down" and "pinch up" states for the left-hand interaction. Teleport will only fire when the user releases the pinch gesture. It prevents unexpected continuous teleporting due to the conflict of pinch gestures from both hands.
+
+<div style="padding:100% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/454520569?color=c9ff23&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+The project is still under development, and I did many experiments to proove the concept and try interesting techniques like hand tracking and metaball shading.
+
