@@ -5,6 +5,11 @@ layout: default
 {%- include header-3d.html -%}
 <div class="container cases">
   <div class="row">
+    {% for tag in site.tags %}
+      <li>{{ tag }}</li>
+    {% endfor %}
+  </div>
+  <div class="row">
     <div class="bricklayer col-12">
     {% for post in site.posts %}
       <div class="card" onclick="window.location = '{{ post.url }}';" data-tilt data-tilt-perspective="1000">

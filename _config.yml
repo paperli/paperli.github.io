@@ -50,3 +50,8 @@ defaults:
       path: "assets/images/static"
     values:
       image: true
+
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
