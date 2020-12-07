@@ -56,6 +56,11 @@ The following part removes dulpicated tags and invalid tags like blank tag.
     </div>
   </div>
   <div class="row">
+    {% for tag in site.tags %}
+      <li>{{ tag }}</li>
+    {% endfor %}
+  </div>
+  <div class="row">
     <div class="bricklayer col-12">
     {% for post in site.posts %}
       {% if page.tag-name == nil or post.tags contains page.tag-name %}
