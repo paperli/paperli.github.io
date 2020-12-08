@@ -5,9 +5,11 @@ layout: default
 {%- include header-3d.html -%}
 <div class="container cases">
   <div class="row">
-    {% if page.tag-name != nil %}
-      <li>{{ page.tag-name }}</li>
-    {% endif %}
+    <div class="col tag-title">
+      {% if page.tag-name != nil %}
+        <h1>{{ page.tag-name }}</h1>
+      {% endif %}
+    </div>
   </div>
   <div class="row">
     <div class="bricklayer col-12">
