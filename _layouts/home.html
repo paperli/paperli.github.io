@@ -5,20 +5,22 @@ layout: default
 {%- include header-3d.html -%}
 <div class="container cases">
   <div class="row">
-    {% for tag in site.tags %}
-      <li>{{ tag }}</li>
-    {% endfor %}
+    {% if page.tag-name != nil %}
+      <li>{{ page.tag-name }}</li>
+    {% endif %}
   </div>
   <div class="row">
     <div class="bricklayer col-12">
     {% for post in site.posts %}
-      <div class="card" onclick="window.location = '{{ post.url }}';" data-tilt data-tilt-perspective="1000">
-        <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
-        <div class="card-body">
-          <h2 class="card-title">{{ post.title }}</h5>
-          <p class="card-text">{{ post.excerpt }}</p>
+      {% if page.tag-name == nil or post.tags contains page.tag-name %}
+        <div class="card" onclick="window.location = '{{ post.url }}';" data-tilt data-tilt-perspective="1000">
+          <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
+          <div class="card-body">
+            <h2 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.excerpt }}</p>
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
     </div>
   </div>
