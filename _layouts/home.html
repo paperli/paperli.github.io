@@ -3,12 +3,51 @@ layout: default
 ---
 
 {%- include header-3d.html -%}
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% assign ttags = post.tags | join:'|' | append: '|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if tags == "" %}
+            {% assign tags = tag | split:'|' %}
+        {% endif %}
+        {% unless tags contains tag %}
+            {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}            
+        {% endunless %}
+    {% endif %}
+{% endfor %}
 <div class="container cases">
-  <div class="row">
-    <div class="col tag-title">
-      {% if page.tag-name != nil %}
-        <h1>{{ page.tag-name }}</h1>
-      {% endif %}
+  <div class="row tags-row">
+    <div class="col">
+      <div class="wrapper">
+        <ul>
+          {%- for tag in tags -%}
+            {% if page.tag-name != nil and tag == page.tag-name %}
+              {% assign active = " active" %}
+            {% else %}
+              {% assign active = "" %}
+            {% endif %}
+            <li>
+              <a href="/tags/{{ tag | slugify }}" class="btn btn-light pill btn-tag{{ active }}">{{ tag }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -27,4 +66,7 @@ layout: default
     </div>
   </div>
 </div>
-
+<script type="text/javascript">
+  // enable bricklayer
+	var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+</script>
