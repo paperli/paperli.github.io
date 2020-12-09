@@ -36,15 +36,20 @@ The following part removes dulpicated tags and invalid tags like blank tag.
     <div class="col">
       <div class="wrapper">
         <ul>
-          {%- for tag in tags -%}
-            {% if page.tag-name != nil and tag == page.tag-name %}
-              {% assign active = " active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
+          {%- if page.tag-name != nil -%}
             <li>
-              <a href="/tags/{{ tag | slugify }}" class="btn btn-light pill btn-tag{{ active }}">{{ tag }}</a>
+              <a href="/" class="btn btn-light pill btn-tag active">{{ page.tag-name }} <i class="fas fa-times-circle icon-cross text-muted"></i></a>
             </li>
+            <li class="divider-cell">
+              <span class="fa-vertical-line"></span>
+            </li>
+          {%- endif -%}
+          {%- for tag in tags -%}
+            {% if page.tag-name == nil or tag != page.tag-name %}
+              <li>
+                <a href="/tags/{{ tag | slugify }}" class="btn btn-light pill btn-tag">{{ tag }}</a>
+              </li>
+            {% endif %}
           {%- endfor -%}
         </ul>
       </div>

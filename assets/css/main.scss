@@ -314,6 +314,22 @@ ul.description>li{
 	transition: all 0.6s;
 }
 
+.btn-tag .icon-cross {
+	margin-left: 0.25rem;
+	margin-right: -2px;
+}
+
+.tags-row .divider-cell {
+	color: rgb(223, 223, 223);
+	padding-top: 4px;
+	margin-left: 6px;
+}
+
+.fa-vertical-line:after {
+	content: "\007C";
+	font-family: "Montserrat", sans-serif;
+};
+
 .tag-title {
 	margin: 0 calc(1.25rem + 4px) 1.25rem;
 }
