@@ -38,7 +38,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
         <ul>
           {%- if page.tag-name != nil -%}
             <li>
-              <a href="/" class="btn btn-light pill btn-tag active">{{ page.tag-name }} <i class="fas fa-times-circle icon-cross text-muted"></i></a>
+              <button type="button" href="/" class="btn btn-light pill btn-tag active">{{ page.tag-name }} <i class="fas fa-times-circle icon-cross text-muted"></i></button>
             </li>
             <li class="divider-cell">
               <span class="fa-vertical-line"></span>
@@ -47,7 +47,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
           {%- for tag in tags -%}
             {% if page.tag-name == nil or tag != page.tag-name %}
               <li>
-                <a href="/tags/{{ tag | slugify }}" class="btn btn-light pill btn-tag">{{ tag }}</a>
+                <button type="button" onclick="return tagClicked(this,'{{ tag }}');" class="btn btn-light pill btn-tag">{{ tag }}</button>
               </li>
             {% endif %}
           {%- endfor -%}
@@ -79,4 +79,22 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 <script type="text/javascript">
   // enable bricklayer
 	var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+  var selectedTags = [];
+
+  function tagClicked(button, tag) {
+    toggleTag(tag);
+    button.classList.toggle("active");
+    window.location.hash = `#${encodeURIComponent(selectedTags.join(","))}`;
+    return false;
+  }
+
+  function toggleTag(tag) {
+    const index = selectedTags.indexOf(tag);
+    if (index < 0) {
+      selectedTags.push(tag);
+    } else {
+      selectedTags.splice(index, 1);
+    }
+  }
+
 </script>
