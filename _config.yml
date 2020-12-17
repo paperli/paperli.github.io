@@ -44,3 +44,9 @@ google_analytics: UA-45288619-1
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
