@@ -47,6 +47,6 @@ google_analytics: UA-45288619-1
 
 defaults:
   - scope:
-      path: "assets/images"
+      path: "assets/images/static"
     values:
       image: true
