@@ -3,19 +3,75 @@ layout: default
 ---
 
 {%- include header-3d.html -%}
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% assign ttags = post.tags | join:'|' | append: '|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if tags == "" %}
+            {% assign tags = tag | split:'|' %}
+        {% endif %}
+        {% unless tags contains tag %}
+            {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}            
+        {% endunless %}
+    {% endif %}
+{% endfor %}
 <div class="container cases">
+  <div class="row tags-row">
+    <div class="col">
+      <div class="wrapper">
+        <ul>
+          {%- if page.tag-name != nil -%}
+            <li>
+              <a href="/" class="btn btn-light pill btn-tag active">{{ page.tag-name }} <i class="fas fa-times-circle icon-cross text-muted"></i></a>
+            </li>
+            <li class="divider-cell">
+              <span class="fa-vertical-line"></span>
+            </li>
+          {%- endif -%}
+          {%- for tag in tags -%}
+            {% if page.tag-name == nil or tag != page.tag-name %}
+              <li>
+                <a href="/tags/{{ tag | slugify }}" class="btn btn-light pill btn-tag">{{ tag }}</a>
+              </li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="bricklayer col-12">
     {% for post in site.posts %}
-      <div class="card" onclick="window.location = '{{ post.url }}';" data-tilt data-tilt-perspective="1000">
-        <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
-        <div class="card-body">
-          <h2 class="card-title">{{ post.title }}</h5>
-          <p class="card-text">{{ post.excerpt }}</p>
+      {% if page.tag-name == nil or post.tags contains page.tag-name %}
+        <div class="card" onclick="window.location = '{{ post.url }}';" data-tilt data-tilt-perspective="1000">
+          <img class="card-img-top" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}">
+          <div class="card-body">
+            <h2 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.excerpt }}</p>
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
     </div>
   </div>
 </div>
-
+<script type="text/javascript">
+  // enable bricklayer
+	var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+</script>

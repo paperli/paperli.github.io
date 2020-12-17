@@ -27,6 +27,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+#  - jekyll-turbolinks
 
 excerpt_separator: <!--more-->
 
@@ -50,3 +51,12 @@ defaults:
       path: "assets/images/static"
     values:
       image: true
+
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
+
+#turbolinks:
+#  enabled: true # Set to false if you want to use the tag
+#  url: /turbolinks.js
