@@ -19,7 +19,7 @@ Followed by the weekly bike route along the Arroyo Seco river, the snap lens My 
 <!--more-->
 [@Snapchat](https://bit.ly/354gpMJ)
 
-![My LA Impresion](/assets/images/cases/bridge/framed.png)
+![My LA Impression](/assets/images/cases/bridge/framed.png)
 
 My LA Impression Snapchat lens exposes the image of Los Angeles from my point of view. The well-known Colorado Street Bridge pops up when you point the Snapchat lens toward you or a friend and open the mouth. Your mouth is the tunnel for the vehicles on the bridge toward or outward the movie-inspired wonderland, Los Angeles. 
 
