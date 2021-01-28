@@ -19,11 +19,7 @@ images:
 
 <!--summary-->
 
-Qute is not just the QR code scanner. It also brings the QR code online. People can share and read the comments about the QR code from the world.
-
-The idea was from the scenarios from street. Image that you saw a QR code on the street. You realized it's shit only when you already visit through it. With Qute people can see the comments from the world about the QR code and you decide to continue or abort the visit.
-
-Beyond that, Qute keeps the scan picture and displays it as part of result. Not only for the visual, but also for the memory. People may recall where the QR code is by the surrending of the QR code in the picture.
+Qute is not just the QR code scanner. It also brings the QR code online. People can share and read the comments about the QR code from the world. 
 
 <!--more-->
 ![Scan a QR code](/assets/images/qute1.jpg)
@@ -34,11 +30,9 @@ Qute is not just the QR code scanner. It also brings the QR code online. People 
 
 ![Scan a QR code](/assets/images/qute2.jpg)
 
-The idea was from the scenarios from street. Image that you saw a QR code on the street. You realized it's shit only when you already visit through it. With Qute people can see the comments from the world about the QR code and you decide to continue or abort the visit.
+Qute keeps the pictures instead of only the code content. That helps you to memorize the QR code with the context. Besides, the QR code itself is ugly but could be beautiful with surroundings.
 
 ![Scan a QR code](/assets/images/qute3.jpg)
-
-Beyond that, Qute keeps the scan picture and displays it as part of result. Not only for the visual, but also for the memory. People may recall where the QR code is by the surrending of the QR code in the picture.
 
 ![Scan a QR code](/assets/images/qute4.jpg)
 

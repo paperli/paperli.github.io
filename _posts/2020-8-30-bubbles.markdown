@@ -16,7 +16,7 @@ images:
 ---
 <!--summary-->
 
-Bubbles creates the playground for people to play around the bubbles in the virtual realism space. You can poke the floating soap bubbles by your hands to blow it up. When I say hands, I mean it literally. The experience uses Oculus Quest's hand tracking API to let you poke the bubbles or interact in the field by your bare hands. To mimic bubble physics, Bubbles applies metaball shading to create the "organic" shape dynamically to the bubble. And when you poke it, it blows up with a designate animation and the companion sound. 
+Bubbles is the bubble poking experience in VR with Oculus Quest's hand tracking technology. It applies metaball and custom visual appearance shader to render the organic shape and reflective surface of bubbles. I also added the sound effect when the bubble brows up to replicate the poking behaviour.
 
 <!--more-->
 ![Play bubbles in VR and have fun](/assets/images/cases/bubbles/screenshot.jpg)
@@ -29,7 +29,7 @@ Bubbles project creates a playground for people to play around the bubbles in th
 
 ### Bubble Shader
 
-To replicate the bubbles in VR, I applied the metaball shader for morphing the shapes and the bubble-like shader to represent the visual appearance. The visual shader uses the noise map and rainbow color ramp to simulate the texture and reflection of the bubble surface.
+To replicate the bubbles in VR, I applied the metaball shader for morphing the shapes and the bubble-like shader to represent the visual appearance. The visual shader uses the noise map and rainbow colour ramp to simulate the texture and reflection of the bubble surface.
 
 ![Bubble Shader](/assets/images/cases/bubbles/shader.png)
 

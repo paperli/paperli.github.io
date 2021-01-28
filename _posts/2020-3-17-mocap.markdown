@@ -18,7 +18,7 @@ images:
 
 <!--summary-->
 
-MoCáp turns your iPhone and iPad into your motion capture studio! Rise your iPhone or iPad, point the camera toward a person, and start making your motion capture masterpiece. It saves the motion data into the flexible bvh file. You can then use it in your favorite 3D character creation tool, like Cinema 4D, Maya/MotionBuilder, Blender, Poser, to name but a few.
+MoCáp turns your iPhone and iPad into your motion capture studio! Rise your iPhone or iPad, point the camera toward a person, and start making your motion capture masterpiece. It saves the motion data into the bvh file. You can then use it in your favorite 3D character creation tool, like Cinema 4D, Maya/MotionBuilder, Blender, Poser, only to name a few.
 
 <!--more-->
 ![Your motion capture studio on the go](/assets/images/cases/mocap/portfolio1.png)
@@ -29,19 +29,19 @@ MoCáp turns your iPhone and iPad into your motion capture studio! Rise your iPh
 
 <div style="padding:133.33% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/451998115?color=ff0179&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-MoCáp saves the motion data into the flexible bvh file. You can then use it in your favorite 3D character creation tool, like Cinema 4D, Maya/MotionBuilder, Blender, Poser, to name but a few. 
+MoCáp saves the motion data into a bvh file. You can then import it in your favorite 3D creation tool, like Cinema 4D, Maya/MotionBuilder, Blender, Poser, only to name a few, and apply the motions to the characters. 
 
 <div style="padding:56.25% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/452005738?color=ff0179&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-MoCáp uses the AR camera to detect a human body and record the movements in more than 20 joints in the skeleton. The conversion then takes part and translates the raw motion data into a single bvh file. The bvh file is an industry-standard motion capture file format and widely imposed in the most main-stream 3D creation tools.
+MoCáp uses the AR camera to detect a human body and record the movements in more than 20 joints in the skeleton. The conversion then takes part and translates the raw motion data into a single bvh file. The bvh file is the industry-standard motion capture file format compatible with the most main-stream 3D creation tools.
 
 ![Your motion capture studio in iPad or iPhone](/assets/images/cases/mocap/portfolio2.png)
 
-MoCáp also integrates multiple functionalities to improve the accessibility to single usage, which is the most common use case for indie artists. The countdown timer gives the user the time to set-up himself/herself in front of the camera before the recording starts. The sound effects for recorder status let the user know when a recording is going to start. MoCáp also delays the recording until the AR camera detects a human body. The Apple Watch version of the remoter is also under development.
+MoCáp integrates multiple functionalities to improve the usability when you use it alone. And which is also the typical use case for indie artists. The countdown timer gives the user the time to set-up himself/herself in front of the camera before the recording starts. The sound effects for recorder status let the user know when a recording is going to start. MoCáp also delays the recording until the AR camera detects a human body. The Apple Watch version of the remoter is also under development.
 
 <div style="padding:133.33% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/451994939?color=ff0179&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-MoCáp is free to download and has a single tier of Grande membership for professional function sets, such as framerate settings, motion file format options, full-access of whole recording history, etc. The users can try the app without pressure, and it's their choice to pay for the full functionality of the app.
+MoCáp is free to download and has a single tier of Grande membership for professional function sets, such as framerate settings, motion file format options, full-access of whole recording history, etc. You can try the app without pressure, and it's all your choice to pay for the app's full functionality while giving me support.
 
 Since launching, MoCáp has constantly hit the 100+ top chart in the Graphics & Design category in the App Store. 
 

@@ -16,20 +16,19 @@ images:
     - "/assets/images/landrover6.jpg"
 
 ---
-Land Rover China was building their manufacturing chain in China. In MobiApps, we cooperated with Shanghai team and developed the sales channel system for customers and dealers. With our interaction model, service agents and car owners could communicate through instant messaging and managing service booking in hand.
 
 <!--summary-->
 
-The clever of the model solved the difficulty of integration of multiple dealer's management system. It also improved Land Rover China's control on first-hand saleforce and customer feedback.
+The pair of apps build a direct communication channel between Land Rover car owners and dealers. The chat-based apps provide the bi-directional interaction model between both sides and cease the long-time communication problem. The system also provides a convenient way to broadcast the brand's message and efficiently manage the booking of services.
 
 <!--more-->
 ![Land Rover China](/assets/images/landrover1.jpg)
 
-Land Rover China was building their manufacturing chain in China. In MobiApps, we cooperated with Shanghai team and developed the sales channel system for customers and dealers. With our interaction model, service agents and car owners could communicate through instant messaging and managing service booking in hand.
+Land Rover China was building its manufacturing chain in China. In MobiApps, we cooperated with the Shanghai team and developed the communication channel between car owners and dealers. The chat-based apps provide the bi-directional interaction model between both sides and cease the long-time communication problem.
 
 ![Land Rover China](/assets/images/landrover2.jpg)
 
-The clever of the model solved the difficulty of integration of multiple dealer's management system. It also improved Land Rover China's control on first-hand saleforce and customer feedback.
+The system also provides a convenient way to broadcast the brand's message and efficiently manage the booking of services. The car owners can contact dealers directly, and it also means that the dealer can get the first-hand feedback or complain from customers and respond without barrier.
 
 ![Land Rover China](/assets/images/landrover3.jpg)
 

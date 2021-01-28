@@ -20,7 +20,7 @@ images:
 
 <!--summary-->
 
-In end of 2012, I start leading the UX and UI design team in MobiApps. MobiApps helps the clients to build mobile apps for retail sale and small business. With templating design system, the mobile app can be quickly built and delivered. The flexibility of the team aims to create cutting-edge concepts, for example, smart no-content mode, social biz UI, etc.. Yet, the variety of prototyping tools are used to quickly test and prove concepts.
+MobiApps is the modulized app platform and the flagship product in the same-name company. The platform produces loyalty apps for retail stores and small business. The template-based design system promises a quick response to new clients, and the modulized architecture ensures the flexibility to the client's needs. I also applied a variety of prototyping tools to test the design concept and usability agilely.
 
 <!--more-->
 
@@ -28,16 +28,20 @@ In end of 2012, I start leading the UX and UI design team in MobiApps. MobiApps 
 
 [Mobiapps @App Store](https://itunes.apple.com/tw/app/ding-hao/id577065907)
 
-In end of 2012, I start leading the UX and UI design team in MobiApps. MobiApps helps the clients to build mobile apps for retail sale and small business. With templating design system, the mobile app can be quickly built and delivered. The flexibility of the team aims to create cutting-edge concepts, for example, smart no-content mode, social biz UI, etc.. Yet, the variety of prototyping tools are used to quickly test and prove concepts.
+MobiApps is the modulized app platform and the flagship product in the same-name company. The platform produces the royalty app for retail stores and small business. The template-based design system promises a quick response to new clients, and the modulized architecture ensures the flexibility to the client's needs. I also applied a variety of prototyping tools to test the design concept and usability agilely.
 
 ![MobiApps](/assets/images/mobiapps-2.jpg)
 
-![MobiApps](/assets/images/mobiapps-3.jpg)
+The platform's core consists of broadcast service, coupon system, loyalty program, stores locator, and membership management.
 
-![MobiApps](/assets/images/mobiapps-4.jpg)
+![MobiApps](/assets/images/mobiapps-3.jpg)
 
 ![MobiApps](/assets/images/mobiapps-5.jpg)
 
 ![MobiApps](/assets/images/mobiapps-6.jpg)
+
+MobiApps conducts several new technologies to store experience. For example, we helped to set up the beacon system to DataExpress' stores in Taipei. The app also experienced the style wave reform from skeuomorphic to simplicity to catch the trend. 
+
+![MobiApps](/assets/images/mobiapps-4.jpg)
 
 ![MobiApps](/assets/images/mobiapps-7.jpg)

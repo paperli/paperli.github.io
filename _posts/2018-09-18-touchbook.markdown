@@ -12,19 +12,17 @@ images:
     - "/assets/images/touchbook3.jpg"
 
 ---
-Create your travel memory easily on-the-go!
 
 <!--summary-->
-
-The app provided the leasure way to create the memory book with traveling pictures. The inventing instruction and realistic theme are applied in the app.
+Create your travel memory easily on-the-go! Touchbook works as the tool to make the book easily with finger taps. You can create memory books easily in the app by selecting pictures on the phone and desired template. It also connects to the printing house to flatten the flow to get the book in real life.
 
 <!--more-->
 
 ![Touchbook](/assets/images/touchbook1.jpg)
 
-Create your travel memory easily on-the-go!
+Create your travel memory easily on-the-go! 
 
-The app provided the leasure way to create the memory book with traveling pictures. The inventing instruction and realistic theme are applied in the app.
+Touchbook works as the tool to make the book easily with finger taps. You can create memory books easily in the app by selecting pictures on the phone and desired template. It also connects to the printing house to flatten the flow to get the book in real life.
 
 ![Touchbook](/assets/images/touchbook2.jpg)
 

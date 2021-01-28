@@ -16,7 +16,7 @@ images:
 
 <!--summary-->
 
-We all love animated GIF! Stueck is easy-to-use GIF camera app. With Stueck you can create GIF frame-by-frame. It might be the simplest GIF creator. You just take pictures, aka. frames, and then set up speed, more turtle or more rabbit. That's it!
+We all love animated GIF! Stueck is the easy-to-use GIF camera app and lets you create GIF frame-by-frame. You pick up the phone, take pictures, and set up speed, more turtle or more rabbit. As simple as it!
 
 <!--more-->
 
@@ -24,6 +24,10 @@ We all love animated GIF! Stueck is easy-to-use GIF camera app. With Stueck you 
 
 [@App Store](https://itunes.apple.com/tw/app/stueck-gif-camera/id1120576038)
 
-We all love animated GIF! Stueck is easy-to-use GIF camera app. With Stueck you can create GIF frame-by-frame. It might be the simplest GIF creator. You just take pictures, aka. frames, and then set up speed, more turtle or more rabbit. That's it!
+We all love animated GIF! Stueck is the easy-to-use GIF camera app and lets you create GIF frame-by-frame. You pick up the phone, take pictures, and set up speed, more turtle or more rabbit. As simple as it!
 
 ![GIF it](/assets/images/stueck2.jpg)
+
+### Turtle And Rabbit
+
+You control the speed of the GIF by adjusting the Turtle/Rabbit slider bar. I made this way to add the fun factor to the simple purpose app. Don't need to be too severe to a utility app. Got it!
