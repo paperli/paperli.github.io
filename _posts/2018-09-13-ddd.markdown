@@ -5,7 +5,8 @@ short: "ddd"
 tags:
     - "App"
     - "IoT"
-    - "Wired"
+    - "Prototype"
+    - "Develop"
 images: 
     - "/assets/images/ddd_1.jpg"
     - "/assets/images/ddd_2.jpg"

@@ -6,6 +6,10 @@ tags:
     - "VR"
     - "Hand Tracking"
     - "Oculus"
+    - "Develop"
+    - "Prototype"
+    - "3D"
+    - "UX"
 images: 
     - "/assets/images/cases/bubbles/promo.jpg"
 

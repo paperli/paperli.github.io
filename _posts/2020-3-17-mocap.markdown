@@ -8,6 +8,7 @@ tags:
     - "AR"
     - "iOS"
     - "Develop"
+    - "UX"
 images: 
     - "/assets/images/cases/mocap/portfolio1.png"
     - "/assets/images/cases/mocap/portfolio2.png"

@@ -5,6 +5,7 @@ short: "pilotfish-mcbw"
 tags:
     - "Web"
     - "Develop"
+    - "UX"
 images: 
     - "/assets/images/mcbw-1.jpg"
     - "/assets/images/mcbw-2.jpg"

@@ -4,7 +4,7 @@ title:  "Map In VR"
 short: "vrmap"
 tags:
     - "VR"
-    - "Interaction"
+    - "UX"
     - "Hand Tracking"
     - "Oculus"
     - "3D"

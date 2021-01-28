@@ -6,19 +6,16 @@ tags:
     - "App"
     - "iOS"
     - "Android"
-    - "Prototype"
+    - "UX"
 images: 
     - "/assets/images/cases/woca/pic1.png"
-    - "/assets/images/cases/woca/pic2.png"
-    - "/assets/images/cases/woca/pic3.png"
-    - "/assets/images/cases/woca/pic4.png"
 
 ---
 [@App Store](https://apps.apple.com/tw/app/woca/id1147139866)
 
 <!--summary-->
 
-Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things and the app just helps you to remember them firmly. The camera inside the app is empowered by AI and AR technologies. It's yet another platform for Diing, the Taipei-based IOT/AI startup, to explore the cutting-edge technologies.
+Woca stands for Word Card and makes you learn and remember new English words efficiently through community-crafted pictures in each card. Photos are the best way to learn new words and things. Woca takes it and helps you remember them solidly.
 
 <!--more-->
 
@@ -26,12 +23,28 @@ Woca let you remember words from communiy-craftd picture cards. Pictures are the
 
 [@App Store](https://apps.apple.com/tw/app/woca/id1147139866)
 
-Woca let you remember words from communiy-craftd picture cards. Pictures are the best way to learn new words and things and the app just helps you to remember them firmly.
+Woca stands for Word Card and makes you learn and remember new English words efficiently through community-crafted pictures in each card. Photos are the best way to learn new words and things. Woca takes it and helps you remember them solidly.
 
 ![Woca](/assets/images/cases/woca/pic2.png)
 
-The camera inside the app is empowered by AI and AR technologies. It's yet another platform for Diing, the Taipei-based IOT/AI startup, to explore the cutting-edge technologies.
+### AI/AR Camera
+
+The AI-empowered AR camera in Woca extends the learning experience into the real world. It also serves as the pioneer media for Diing to explore cutting-edge vision technologies.
 
 ![Woca](/assets/images/cases/woca/pic3.png)
 
+### Collection
+
+We learned from the games and sports activities and knew that people love collecting beautiful cards as the fan culture thing. In Woca, you can collect stunning word card into your own collection by simple interactions. 
+
 ![Woca](/assets/images/cases/woca/pic4.png)
+
+### Design
+
+There is always a good plan for a great product. The development of Woca replied on the well-organized user needs and design document. I summarized the expects from different angles of stockholders and target audiences and organized the feature sheet to be the app's basis. When the task dropped even further, I used several prototypes and mockups to figure out useful yet exciting interactions. I put them into the flow document to serve as the communication basis to developers and stockholders.
+
+![Woca](/assets/images/cases/woca/mindmap.png)
+
+![Woca](/assets/images/cases/woca/flow1.jpg)
+
+![Woca](/assets/images/cases/woca/flow2.jpg)

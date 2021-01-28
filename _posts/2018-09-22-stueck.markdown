@@ -6,6 +6,7 @@ tags:
     - "App"
     - "iOS"
     - "Develop"
+    - "UX"
 images: 
     - "/assets/images/stueck1.jpg"
     - "/assets/images/stueck2.jpg"

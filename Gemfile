@@ -21,7 +21,9 @@ gem "github-pages", group: :jekyll_plugins
 # shall run everytime create a new post for tag generator
 # $ bundle install
 # $ jekyll serve
+# Modify .rb plugin and save, Jekyll will run the ruby code and generate the tag pages
 #gem 'jekyll', group: :jekyll_plugins
+#gem 'kramdown-parser-gfm'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

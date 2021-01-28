@@ -4,6 +4,8 @@ title:  "MobiApps Website"
 short: "mobiapps-website"
 tags:
     - "Web"
+    - "UX"
+    - "Develop"
 images: 
     - "/assets/images/mobiapps_web1.jpg"
     - "/assets/images/mobiapps_web2.jpg"

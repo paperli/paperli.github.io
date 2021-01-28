@@ -4,6 +4,8 @@ title:  "Pilotfish Mobile Website"
 short: "pilotfish-mobile"
 tags:
     - "Web"
+    - "UX"
+    - "Develop"
     - "Prototype"
 images: 
     - "/assets/images/pf_mobile1.jpg"

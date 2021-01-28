@@ -6,7 +6,7 @@ tags:
     - "App"
     - "iOS"
     - "Android"
-    - "Prototype"
+    - "UX"
 images: 
     - "/assets/images/landrover1.jpg"
     - "/assets/images/landrover2.jpg"

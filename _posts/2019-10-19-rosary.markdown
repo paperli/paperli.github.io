@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "eRosary"
+short: "rosa"
+tags:
+    - "App"
+    - "iOS"
+    - "Android"
+    - "UX"
+    - "IoT"
+images: 
+    - "/assets/images/cases/rosa/promo.jpg"
+
+---
+[@App Store](https://apps.apple.com/app/click-to-pray-erosary/id1477960251)
+
+<!--summary-->
+
+Woca stands for Word Card and makes you learn and remember new English words efficiently through community-crafted pictures in each card. Photos are the best way to learn new words and things. Woca takes it and helps you remember them solidly.
+
+<!--more-->
+
+![eRosary](/assets/images/cases/rosa/pic1.jpg)
+
+[@App Store](https://apps.apple.com/app/click-to-pray-erosary/id1477960251)
+
+eRosary is the companion app for the smart Christian rosary beads. The app records and displays the collected activity data and provides several Vatican-certified prays and contents for Christian prayers.
+
+Christians can follow the step-by-step guide to pray Rosaries and other prayers. The smart beads detect the turning activity and help to count the praying progress automatically.
+
+![eRosary](/assets/images/cases/rosa/pic3.jpg)
+
+The smart beads record the daily activity, and the app displays real-time data and saves it in statistics. It also records the praying history and daily progress to encourage Vatican-proposed praying behavior.
+
+![eRosary](/assets/images/cases/rosa/pic4.jpg)
+
+![eRosary](/assets/images/cases/rosa/pic2.jpg)
+
+The app lists the articles from the Pope and helps to engage the users to Holy See. ClickToPray updates the content from time to time, and the app also includes the feature to allow users to browse the archive.
+
+![eRosary](/assets/images/cases/rosa/pic5.jpg)
+
+### Design
+
+I made the flow document as clear as possible to drive the fluent communication between the company, Acer and Vatican authority. The complicated relationship between different stockholders was sometimes intense, and the document usually helped eliminate the gap between groups. 
+
+![eRosary](/assets/images/cases/rosa/flow1.jpg)
+
+![eRosary](/assets/images/cases/rosa/flow2.jpg)

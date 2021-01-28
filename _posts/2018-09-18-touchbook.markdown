@@ -5,7 +5,7 @@ short: "touchbook"
 tags:
     - "App"
     - "iOS"
-    - "Prototype"
+    - "UX"
 images: 
     - "/assets/images/touchbook1.jpg"
     - "/assets/images/touchbook2.jpg"

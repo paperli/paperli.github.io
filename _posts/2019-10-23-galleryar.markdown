@@ -7,6 +7,7 @@ tags:
     - "AR"
     - "iOS"
     - "Develop"
+    - "UX"
 images: 
     - "/assets/images/cases/galleryar/pic1.png"
     - "/assets/images/cases/galleryar/pic2.png"
