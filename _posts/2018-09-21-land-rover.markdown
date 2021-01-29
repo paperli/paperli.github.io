@@ -37,3 +37,9 @@ The system also provides a convenient way to broadcast the brand's message and e
 ![Land Rover China](/assets/images/landrover5.jpg)
 
 ![Land Rover China](/assets/images/landrover6.jpg)
+
+### CARS - Stop Motion Movie
+
+In the early days of the development, I led colleagues to complete the stop motion video to give us the insight of the usage cases. The production also grouped the team from different disciplines to form a union for the final product.
+
+<div style="padding:56.25% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/505796913?color=c9ff23&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
