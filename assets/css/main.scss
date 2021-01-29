@@ -294,13 +294,14 @@ ul.description>li{
 
 .tags-row .wrapper {
 	position: relative;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 .tags-row ul {
 	padding: 0 1em;
 	display: inline-flex;
 	list-style: none;
+	margin-bottom: 4px;
 }
 
 .tags-row ul>li {
@@ -461,19 +462,31 @@ article .post-title {
 	margin-bottom: 0.4em;
 }
 
-.tags > .tag:not(:last-child)::after {
+.post .tags .wrapper {
+	position: relative;
+	overflow-x: auto;
+}
+
+.post .tags ul {
+	list-style: none;
+	padding: 0 4px 8px;
+	display: inline-flex;
+	margin: 0;
+}
+
+.post .tags .tag:not(:last-child)::after {
 	font-family:"FontAwesome";
 	content: "\f621";
 	font-weight:900;
 	padding:0 8px 2px;
-	display:inline-block;
+	display:inline;
 	vertical-align:middle;
 	line-height:normal;
 	font-size:0.7rem;
 	color:rgba(0,0,0,0.2);
 }
 
-.tag {
+.post .tag {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
