@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Medical Training In VR"
-short: "bubbles"
+short: "medicalvr"
 tags:
     - "VR"
     - "Vive"
