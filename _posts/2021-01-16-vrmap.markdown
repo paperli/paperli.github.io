@@ -8,6 +8,7 @@ tags:
     - "Hand Tracking"
     - "Oculus"
     - "3D"
+    - "Prototype"
 images: 
     - "/assets/images/cases/map/promo.jpg"
 

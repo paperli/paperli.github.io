@@ -8,6 +8,7 @@ tags:
     - "Android"
     - "UX"
     - "IoT"
+    - "Prototype"
 images: 
     - "/assets/images/cases/rosa/promo.jpg"
 
