@@ -20,22 +20,26 @@ images:
 
 <!--summary-->
 
-Facroll frees your hands when you browse the webpage. It applies iPhone's face recognition technology and AI-powered Fasture library and let you browse the webpages with the facial expressions. The app is also the working showcase to demonstrate how to integrate these two trending technologies to good user experience.
+Facroll frees your hands when you browse the webpage. It applies iPhone's face recognition technology and AI-powered Fasture library and let you browse the webpages with facial expressions. The app is also the working showcase to demonstrate how to integrate these two emerging technologies to a good user experience.
 
 <!--more-->
 ![Web surfing with your face](/assets/images/cases/fascroll/pic1.png)
 
 [@App Store](https://apps.apple.com/app/fascroll/id1443704703)
 
-Facroll frees your hands when you browse the webpages. It applies iPhone's face recognition technology and AI-powered Fasture library and let you browse the webpages with the facial expressions.
+Facroll frees your hands when you browse the webpages. It applies iPhone's face recognition technology and AI-powered Fasture library and let you browse the webpages with facial expressions.
 
 <div class="video-embed"><iframe src="https://www.youtube.com/embed/5LRTkAtT9b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-The app detects the facial expressions with the CoreML-empowered Fasture library. For examples, you can squeeze the eyebrows inward like the angry face to scroll down the webpage and look upward to scroll up. Or even make a funny face like making tongue out to close the webpage.
+The story behind the idea is that imagine you are in a fried chicken restaurant and enjoy a great yum chicken tender basket. How do you interact with the phone while the delicious protein occupies both hands? Facial expressions can be an answer to this scenario.
+
+![Web surfing with your face](/assets/images/cases/fascroll/gorge.gif)
+
+Fascroll detects facial expressions with the CoreML-empowered Fasture library. For examples, you can squeeze the eyebrows inward like the angry face to scroll down the webpage and look upward to scroll up. Or even make a funny face like making tongue out to close the webpage.
 
 ![Web surfing with your face](/assets/images/cases/fascroll/pic2.png)
 
-The app is also the working showcase to demonstrate how to integrate these two trending technologies to good user experience.
+The app is also the working showcase to demonstrate how to integrate these two trending technologies to a good user experience.
 
 ![Web surfing with your face](/assets/images/cases/fascroll/pic3.png)
 

@@ -43,7 +43,9 @@ The app lists the articles from the Pope and helps to engage the users to Holy S
 
 ### Design
 
-I made the flow document as clear as possible to drive the fluent communication between the company, Acer and Vatican authority. The complicated relationship between different stockholders was sometimes intense, and the document usually helped eliminate the gap between groups. 
+I conducted the persona and use cases in the study phase and made the flow document as clear as possible to drive the fluent communication among the team, Acer and Vatican authority. The multi-layer stockholders relationship was sometimes intense, and the document usually helped eliminate the gap between groups.
+
+![eRosary](/assets/images/cases/rosa/persona.jpg)
 
 ![eRosary](/assets/images/cases/rosa/flow1.jpg)
 
