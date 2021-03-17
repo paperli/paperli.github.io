@@ -42,7 +42,9 @@ When the user enters the passcode-protected group, he/she must play with the pas
 
 ### Design
 
-The flow document served as the communication basis to developers, team members and customers. The mockups used in the document also played the role of the prototype to test the usage considerations. 
+The user personas set up the guard to aligning design with user needs. The flow document served as the communication basis to developers, team members and customers. The wireframes also played the role of the prototype to test the usage considerations.
+
+![Chat app for gamers](/assets/images/cases/gamerchat/personas.jpg)
 
 ![Chat app for gamers](/assets/images/cases/gamerchat/flow1.jpg)
 

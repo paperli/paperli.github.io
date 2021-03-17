@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Jewelry"
+short: "jewelry"
+tags:
+    - "App"
+    - "iOS"
+    - "UX"
+    - "Prototype"
+images: 
+    - "/assets/images/cases/jewelry/promo.jpg"
+
+---
+
+<!--summary-->
+
+The combination of luxury and technology can boost the human connection. The Jewelry companion app demonstrates the linkage of the smart bracelet and human beings. You record the moment with the widgets like real-time heating up, a love card, photos, etc., and left a mark in the beads-linked timeline for your precious memory with the better half.
+
+<!--more-->
+
+![Jewelry](/assets/images/cases/jewelry/pic1.jpg)
+
+The Jewelry app is the companion app for the smart bracelet cooperated with the well-known jewelry manufacturer. The concept is to connect people with both the bracelet itself and the app. The timeline on the main page represents the memory between you and your better half. Each moment is the widget that you created for each other and marked in a small charm as your collection. You can create a moment by sending a love card, launching a heating-up, or sharing a bundle of photos.
+
+The heating-up is a small real-time game between you and another. By pressing a two-finger tap, you send a kiss and fill up the heart elixir.
+
+![Jewelry](/assets/images/cases/jewelry/pic2.jpg)
+
+<div style="padding:56.25% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/525144951?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Sending the card to show your love is another gesture to bundle each other. You can select a theme, a song and sign your name on the card to share your delight.
+
+![Jewelry](/assets/images/cases/jewelry/pic5.jpg)
+
+The club feature connects you with the jewelry brand. You get the updated information about the new products and deals and the royalty points as a reward from the manufacturer.
+
+![Jewelry](/assets/images/cases/jewelry/pic4.jpg)
+
+<div style="padding:59.15% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/525064285?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+The app displays the real-time activity data from the smart bracelet and saves the statistic of your health behavior. The smart bracelet will also vibrate to remind you of the in-coming new moment from your other half.
+
+![Jewelry](/assets/images/cases/jewelry/pic3.jpg)
