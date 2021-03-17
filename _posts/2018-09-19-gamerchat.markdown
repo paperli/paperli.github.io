@@ -47,3 +47,5 @@ The flow document served as the communication basis to developers, team members 
 ![Chat app for gamers](/assets/images/cases/gamerchat/flow1.jpg)
 
 ![Chat app for gamers](/assets/images/cases/gamerchat/flow2.jpg)
+
+<div style="padding:56.25% 0 0 0;position:relative;" class="video-embed round-border"><iframe src="https://marvelapp.com/prototype/3g5gb84?emb=1&iosapp=false&frameless=false" width="402" height="803" allowTransparency="true" frameborder="0" style="-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);"></iframe></div>
