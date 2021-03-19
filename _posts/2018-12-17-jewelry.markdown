@@ -41,3 +41,13 @@ The club feature connects you with the jewelry brand. You get the updated inform
 The app displays the real-time activity data from the smart bracelet and saves the statistic of your health behavior. The smart bracelet will also vibrate to remind you of the in-coming new moment from your other half.
 
 ![Jewelry](/assets/images/cases/jewelry/pic3.jpg)
+
+### Design
+
+We picked up Pandora as the target brand. I started the project by researching its core values and decided to center around its tagline, "Unforgettable Moments." I elaborated the idea to the timeline and the moment widgets in the main dashboard. The timeline also tells the story of the jewelry owner and his/her companion counterpart. The app ends up centering around the idea of human connection and the personal story. 
+
+![Jewelry](/assets/images/cases/jewelry/value.jpg)
+
+![Jewelry](/assets/images/cases/jewelry/flow1.jpg)
+
+![Jewelry](/assets/images/cases/jewelry/flow3.jpg)
