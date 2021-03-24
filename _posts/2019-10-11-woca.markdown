@@ -44,7 +44,9 @@ Woca pronounces the word when the user taps the card title. The separating anima
 
 We learned from the games and sports activities and knew that people love collecting beautiful cards as the fan culture thing. In Woca, you can collect stunning word card into your collection by simple interactions.
 
-![Woca](/assets/images/cases/woca/pic4.png)
+<div style="padding:54.16% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/528085384?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+![Woca](/assets/images/cases/woca/deck.jpg)
 
 ### Design
 

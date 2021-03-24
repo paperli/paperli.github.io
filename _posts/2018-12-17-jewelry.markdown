@@ -6,6 +6,7 @@ tags:
     - "App"
     - "iOS"
     - "UX"
+    - "IoT"
     - "Prototype"
 images: 
     - "/assets/images/cases/jewelry/promo.jpg"

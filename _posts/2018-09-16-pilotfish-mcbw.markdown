@@ -16,7 +16,7 @@ images:
 
 <!--summary-->
 
-The big innovation event in Munich! Munich Creative Business Week. I designed a webpage to present speech schedule in Pilotfish booth. **It's all about time!** The main part of this design is the time-line and the blobs of speakers. As requesed also made the pdf version and invitation card.
+The big innovation event in Munich! Munich Creative Business Week. I designed a webpage to present speech schedule in Pilotfish booth. **It's all about time!** The timeline in the website reminds the attendees about the speech schedule.
 
 <!--more-->
 
@@ -24,7 +24,7 @@ The big innovation event in Munich! Munich Creative Business Week. I designed a 
 
 [http://www.pilotfish.eu/mcbw/](http://www.pilotfish.eu/mcbw/)
 
-The big innovation event in Munich! Munich Creative Business Week. I designed a webpage to present speech schedule in Pilotfish booth. **It's all about time!** The main part of this design is the time-line and the blobs of speakers. As requesed also made the pdf version and invitation card.
+The big innovation event in Munich! Munich Creative Business Week. I designed a webpage to present speech schedule in Pilotfish booth. **It's all about time!** The timeline in the website reminds the attendees about the speech schedule. 
 
 ![MCBW](/assets/images/mcbw-2.jpg)
 

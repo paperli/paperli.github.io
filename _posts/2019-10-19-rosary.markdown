@@ -31,6 +31,8 @@ Christians can follow the step-by-step guide to pray Rosaries and other prayers.
 
 ![eRosary](/assets/images/cases/rosa/pic3.jpg)
 
+<div style="padding:54.16% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/528083952?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 The smart beads record the daily activity, and the app displays real-time data and saves it in statistics. It also records the praying history and daily progress to encourage Vatican-proposed praying behavior.
 
 ![eRosary](/assets/images/cases/rosa/pic4.jpg)
