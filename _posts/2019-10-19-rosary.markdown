@@ -45,7 +45,7 @@ The app lists the articles from the Pope and helps to engage the users to Holy S
 
 ### Design
 
-I conducted the persona and use cases in the study phase and made the flow document as clear as possible to drive the fluent communication among the team, Acer and Vatican authority. The multi-layer stockholders relationship was sometimes intense, and the document usually helped eliminate the gap between groups.
+At the beginning of the project, the client provided user insights from interviews with Christians and priests. Those inputs helped me conduct the user personas and use cases. I then made the flow document as detail as possible to drive fluent communication between the team, Acer and Vatican authority. The complex relationship with plural stockholders was sometimes intense, and the document helped eliminate the gap between groups. The design iterations happened frequently and gradually elevated the quality of the final product.
 
 ![eRosary](/assets/images/cases/rosa/persona.jpg)
 
@@ -54,3 +54,5 @@ I conducted the persona and use cases in the study phase and made the flow docum
 ![eRosary](/assets/images/cases/rosa/flow2.jpg)
 
 ![eRosary](/assets/images/cases/rosa/flow3.jpg)
+
+![eRosary](/assets/images/cases/rosa/iteration.jpg)
