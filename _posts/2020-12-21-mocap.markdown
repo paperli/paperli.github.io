@@ -27,7 +27,7 @@ MoCáp turns your iPhone and iPad into your motion capture studio! Rise your iPh
 
 MoCáp turns your iPhone and iPad into the motion capture studio. Rise your iPhone or iPad, point the camera toward a person, and start making your motion capture masterpiece.
 
-<div style="padding:133.33% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/451998115?color=ff0179&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:52.5% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/530841964?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 MoCáp saves the motion data into a bvh file. You can then import it in your favourite 3D creation tool, like Cinema 4D, Maya/MotionBuilder, Blender, Poser, only to name a few, and apply the characters' movements.
 
@@ -39,9 +39,17 @@ MoCáp uses the AR camera to detect a human body and record the movements in mor
 
 MoCáp integrates multiple functionalities to improve usability when you use it alone. And which is also the typical use case for indie artists. The countdown timer gives the user the time to set-up himself/herself in front of the camera before the recording starts. The sound effects for recorder status let the user know when a recording is going to start. MoCáp also delays the recording until the AR camera detects a human body. The Apple Watch version of the remoter is also under development.
 
-<div style="padding:133.33% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/451994939?color=ff0179&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:52.5% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/530841980?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 MoCáp is free to download and has a single tier of Grande membership for professional function sets, such as framerate settings, motion file format options, full-access of whole recording history, etc. You can try the app without pressure, and it's all your choice to pay for the app's full functionality while giving me support.
+
+![Your motion capture studio in iPad or iPhone](/assets/images/cases/mocap/pic1.jpg)
+
+I made two motion graphics as the banner design for the in-app purchase pages. I created them in Blender, and they are also my practice in trending 3D illustrations. 
+
+<div style="padding:56.25% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/530836324?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<div style="padding:56.25% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/530836298?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Apple Watch App Trailer
 
