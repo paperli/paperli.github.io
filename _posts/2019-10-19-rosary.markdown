@@ -55,4 +55,6 @@ At the beginning of the project, the client provided user insights from intervie
 
 ![eRosary](/assets/images/cases/rosa/flow3.jpg)
 
+![eRosary](/assets/images/cases/rosa/system.jpg)
+
 ![eRosary](/assets/images/cases/rosa/iteration.jpg)
