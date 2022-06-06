@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papertype</title>
+    <style>
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background: black;
+        }
+
+        .background {
+            width: 100vw;
+            height: 100vh;
+            background: black;
+        }
+    </style>
     <script src="https://cdn.html.games.alexa.a2z.com/alexa-html/latest/alexa-html.js"></script>
 </head>
 <body>
     <div id="debugElement">hang on...</div>
+    <div class="background"></div>
     <script>
         var alexaClient;
         Alexa.create({version: '1.1'})

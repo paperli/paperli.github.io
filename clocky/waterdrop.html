@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Bezier Curve</title></head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	
+	var canvas_center = {x:400,y:400}
+	var density = 0.01;
+	var t = 0;
+	
+	function canvasSupport(){
+		return !!window.HTMLCanvasElement;
+	}
+	
+	$(document).ready(function(){
+		canvasApp();
+	});
+	
+	function canvasApp(){
+		if (!canvasSupport()){
+			return;
+		}
+		
+		canvas = document.getElementById("myCanvas");
+		ctx  = canvas.getContext("2d");
+		canvas_center = {x:canvas.width/2,y:canvas.height/2};
+		radius = 400;
+		
+		//start point = end point
+		p0 = {x:canvas_center.x,y:canvas_center.y-radius};
+		p1 = {x:canvas_center.x+radius,y:canvas_center.y};
+		p2 = {x:canvas_center.x-radius,y:canvas_center.y};
+		p3 = {x:canvas_center.x-1,y:canvas_center.y-radius}
+		
+		ctx.lineWidth=1;
+		ctx.strokeStyle="#c3c3c3";
+		//ctx.fillStyle="#000";
+		ctx.beginPath();
+		ctx.moveTo(p0.x,p0.y);
+		
+		ctx.bezierCurveTo(p1.x,p1.y,p2.x,p2.y,p3.x,p3.y);
+		ctx.closePath();
+		//ctx.fill();
+		ctx.stroke();
+		
+		
+		for (var i=0;i<1/density;i++){
+			t += density;
+			bx = (1-t)*(1-t)*(1-t)*p0.x+3*(1-t)*(1-t)*t*p1.x+3*(1-t)*t*t*p2.x+t*t*t*p3.x;
+			by = (1-t)*(1-t)*(1-t)*p0.y+3*(1-t)*(1-t)*t*p1.y+3*(1-t)*t*t*p2.y+t*t*t*p3.y;
+			ctx.fillStyle="#3c3c3c";
+			//ctx.moveTo(bx,by);
+			ctx.beginPath();
+			ctx.arc(bx,by,2,0,Math.PI*2,true);
+			ctx.closePath();
+			ctx.fill();
+		}
+	}
+	
+	</script>
+<body>
+<canvas width="800" height="800" id="myCanvas">!!Your Browser Sucks!!</canvas>
+</body>
+</html>
