@@ -21,9 +21,9 @@ Welcome to Volleyverse, the voice interaction metaverse! During the 24-hour hack
 
 <!--more-->
 
-<q> I want to make a wish and use the gifts to decorate my room.</q>
+> I want to make a wish and use the gifts to decorate my room.
 
-The mixed reality universe is going to shape the computing future, and we wonder how the voice interaction can become an impact on such a platform. I led the 3-people hackathon team to invest in Wit.ai voice AI engine and integrate 
+The mixed reality universe is going to shape the computing future, and we wonder how the voice interaction can become an impact on such a platform. I led the 3-people hackathon team to invest ina Wit.ai voice AI engine and integrate 
 
 <div style="padding:100% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/504247535?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
