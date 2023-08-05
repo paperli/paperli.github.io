@@ -2,7 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$primary-text-color:#2B2D2D;
+$primary-text-color: #2B2D2D;
+$quote-text-color: #DDDDDD;
+$quote-color: #1D1D1D;
+$spacing-unit: 30;
 
 @font-face {
 	font-family: FontAwesome;
@@ -515,6 +518,26 @@ article .post-title {
 .bricklayer-column {
 	overflow:hidden;
 }
+
+/**
+ * Blockquotes
+ */
+ blockquote {
+	color: $quote-color;
+	border-left: 4px solid $quote-text-color;
+	padding-left: 16px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 1.618rem;
+	letter-spacing: -1px;
+	font-style: italic;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+  
+	> :last-child {
+	  margin-bottom: 0;
+	}
+  }
 
 @media (min-width: 1200px) {
 	.bricklayer-column-sizer {
