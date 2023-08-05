@@ -23,7 +23,9 @@ Step into the world of Volleyverse, where voice commands shape reality! Within a
 
 > I want to make a wish and use the gifts to decorate my room.
 
-The mixed reality universe is going to shape the computing future, and we wonder how the voice interaction can become an impact on such a platform. I led the 3-people hackathon team to invest ina Wit.ai voice AI engine and integrate 
+Real world is intriguing, and the virtual world can make it fasinating. I groupped with another two VR enthusiastic during the internal Volley hackathon to explor the voice interactivity and capbability in mixed reality environment. Our vision is to make a platform and allow users to make wishes by their voice. We reveal their gift and they can move it around with grabbing and pictching hand gestures. In this way, we explore the voice interaction and showcase the intunity of voice interface on future mixed reality computing platforms.
+
+I initialized the idea prior the hackathon and gathered 2 other VR enthusiastics at Volley to accomplish the prototype. I use my product design experiences to lead the product scoping conversation, and apply my Quest prototyping knowledges to draft the coding base. We highly cooperated druign the 24 hr spring and build the live demo in front of all Volley employees. 
 
 <div style="padding:100% 0 0 0;position:relative;" class="video-embed"><iframe src="https://player.vimeo.com/video/504247535?color=c9ff23&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
