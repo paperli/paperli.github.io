@@ -17,7 +17,7 @@ images:
 ---
 <!--summary-->
 
-Welcome to Volleyverse, the voice interaction metaverse! During the 24-hour hackathon, we build the voice induced making-a-wish expereience on Quest Pro headset. The expereince listens to user's wishes by integrating Wit.ai voice AI engine, then reveals the gift in user's surroundings by enabling the passthrough feature on the mixed reality headset. It was during the holiday season and we use to wish all folks a merry Christmas!
+Step into the world of Volleyverse, where voice commands shape reality! Within a mere 24-hour hackathon, we manifested an enchanting "Making-A-Wish" experience exclusively for the Quest headsets. By seamlessly integrating the Wit.ai voice AI engine, users express their desires vocally, unveiling delightful gifts seamlessly integrated into their surroundings via the headset's passthrough feature. We presend our creation during the holiday season, serving as a conduit for spreading merriment and extending heartfelt Christmas wishes to all volley employees.
 
 <!--more-->
 
