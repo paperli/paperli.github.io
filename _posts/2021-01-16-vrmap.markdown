@@ -5,8 +5,6 @@ short: "vrmap"
 tags:
     - "VR"
     - "UX"
-    - "Oculus"
-    - "3D"
     - "Prototype"
 images: 
     - "/assets/images/cases/map/promo.jpg"
