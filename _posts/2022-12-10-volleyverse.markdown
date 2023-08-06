@@ -20,13 +20,17 @@ Step into the world of Volleyverse, where voice commands shape reality! Within a
 
 Step into the world of Volleyverse, where voice commands shape reality! Within a mere 24-hour hackathon, we manifested an enchanting "Making-A-Wish" experience exclusively for the Quest headsets. 
 
-![Volleyverse - showcase Quest Pro](/assets/images/cases/volleyverse/showcase_questpro.png)
+![Volleyverse](/assets/images/cases/volleyverse/showcase_broadview.png)
 
 By seamlessly integrating the Wit.ai voice AI engine, users express their desires vocally, unveiling delightful gifts seamlessly integrated into their surroundings via the headset's passthrough feature. We presend our creation during the holiday season, serving as a conduit for spreading merriment and extending heartfelt Christmas wishes to all volley employees.
+
+![Volleyverse - showcase Quest Pro](/assets/images/cases/volleyverse/showcase_questpro.png)
 
 > I want to make a wish and use the gifts to decorate my room.
 
 The tangible world holds its allure, while the digital realm amplifies its fascination. Teaming up with two fellow VR enthusiasts during Volley’s internal hackathon, we embarked on an exploration of voice interactivity and its potential within a mixed reality landscape. Our overarching goal was to create a dynamic platform that recognize users' wishes with their voices. These wishes would materialize as interactive gifts, manipulated through natural hand gestures like grabbing and pinching. Through this innovative endeavor, we not only unraveled the possibilities of voice interaction but also showcased its seamless integration into future mixed reality computing platforms.
+
+![Volleyverse - showcase Quest Pro](/assets/images/cases/volleyverse/showcase_questionpro_laptop.png)
 
 ## Hackathon Team
 
