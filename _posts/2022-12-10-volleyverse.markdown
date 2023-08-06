@@ -7,8 +7,6 @@ tags:
     - "AR"
     - "AI"
     - "UX"
-    - "Oculus"
-    - "3D"
     - "Prototype"
 images: 
     - "/assets/images/cases/volleyverse/promo.png"
@@ -20,9 +18,11 @@ Step into the world of Volleyverse, where voice commands shape reality! Within a
 
 <!--more-->
 
-Step into the world of Volleyverse, where voice commands shape reality! Within a mere 24-hour hackathon, we manifested an enchanting "Making-A-Wish" experience exclusively for the Quest headsets. By seamlessly integrating the Wit.ai voice AI engine, users express their desires vocally, unveiling delightful gifts seamlessly integrated into their surroundings via the headset's passthrough feature. We presend our creation during the holiday season, serving as a conduit for spreading merriment and extending heartfelt Christmas wishes to all volley employees.
+Step into the world of Volleyverse, where voice commands shape reality! Within a mere 24-hour hackathon, we manifested an enchanting "Making-A-Wish" experience exclusively for the Quest headsets. 
 
 ![Volleyverse - showcase Quest Pro](/assets/images/cases/volleyverse/showcase_questpro.png)
+
+By seamlessly integrating the Wit.ai voice AI engine, users express their desires vocally, unveiling delightful gifts seamlessly integrated into their surroundings via the headset's passthrough feature. We presend our creation during the holiday season, serving as a conduit for spreading merriment and extending heartfelt Christmas wishes to all volley employees.
 
 > I want to make a wish and use the gifts to decorate my room.
 
