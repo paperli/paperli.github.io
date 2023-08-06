@@ -4,7 +4,6 @@ title:  "Bubbles"
 short: "bubbles"
 tags:
     - "VR"
-    - "Hand Tracking"
     - "Oculus"
     - "Develop"
     - "Prototype"

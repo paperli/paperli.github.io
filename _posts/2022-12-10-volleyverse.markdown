@@ -7,7 +7,6 @@ tags:
     - "AR"
     - "AI"
     - "UX"
-    - "Hand Tracking"
     - "Oculus"
     - "3D"
     - "Prototype"

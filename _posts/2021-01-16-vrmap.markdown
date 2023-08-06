@@ -5,7 +5,6 @@ short: "vrmap"
 tags:
     - "VR"
     - "UX"
-    - "Hand Tracking"
     - "Oculus"
     - "3D"
     - "Prototype"
