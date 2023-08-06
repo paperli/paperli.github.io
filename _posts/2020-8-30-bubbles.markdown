@@ -4,10 +4,7 @@ title:  "Bubbles"
 short: "bubbles"
 tags:
     - "VR"
-    - "Oculus"
-    - "Develop"
     - "Prototype"
-    - "3D"
     - "UX"
 images: 
     - "/assets/images/cases/bubbles/promo.jpg"
