@@ -17,6 +17,7 @@ title: paperworkStudio
 email: paper.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I do user interface design and prototype and TECH+ART
+domain: paperworkstud.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://paperworkstud.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: paperli
@@ -28,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 #  - jekyll-turbolinks
+  - jekyll-google-tag-manager
 
 excerpt_separator: <!--more-->
 
