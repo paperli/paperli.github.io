@@ -29,16 +29,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 #  - jekyll-turbolinks
-  - jekyll-google-tag-manager
 
 excerpt_separator: <!--more-->
 
 # Google Analytics
 google_analytics: UA-45288619-1
-
-google:
-  tag_manager:
-    container_id: G-37L1535ZD0
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
