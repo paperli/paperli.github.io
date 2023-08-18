@@ -30,6 +30,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-seo-tag", "~> 2.1"
 #  gem 'jekyll-turbolinks', '~> 0.0.4'
+  gem "jekyll-google-tag-manager"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
