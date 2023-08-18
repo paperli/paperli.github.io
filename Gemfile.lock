@@ -255,7 +255,7 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 228)
   jekyll-feed (~> 0.6)
   jekyll-google-tag-manager
   jekyll-seo-tag (~> 2.1)
