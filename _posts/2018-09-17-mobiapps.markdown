@@ -4,7 +4,6 @@ title:  "MobiApps"
 short: "mobiapps"
 tags:
     - "App"
-    - "iOS"
     - "UX"
 images: 
     - "/assets/images/mobiapps-1.jpg"

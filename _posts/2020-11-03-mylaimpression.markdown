@@ -4,7 +4,6 @@ title:  "My LA Impression"
 short: "bridge"
 tags:
     - "AR"
-    - "Filter"
     - "3D"
 images: 
     - "/assets/images/cases/bridge/promo.jpg"

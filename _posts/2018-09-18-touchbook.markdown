@@ -4,7 +4,6 @@ title:  "Touchbook"
 short: "touchbook"
 tags:
     - "App"
-    - "iOS"
     - "UX"
 images: 
     - "/assets/images/touchbook1.jpg"

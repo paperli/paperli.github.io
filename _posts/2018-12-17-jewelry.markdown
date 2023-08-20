@@ -4,7 +4,6 @@ title:  "Jewelry"
 short: "jewelry"
 tags:
     - "App"
-    - "iOS"
     - "UX"
     - "IoT"
     - "Prototype"

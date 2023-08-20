@@ -5,7 +5,6 @@ short: "galleryar"
 tags:
     - "App"
     - "AR"
-    - "iOS"
     - "Develop"
     - "UX"
 images: 

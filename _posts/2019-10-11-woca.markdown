@@ -4,8 +4,6 @@ title:  "Woca"
 short: "woca"
 tags:
     - "App"
-    - "iOS"
-    - "Android"
     - "UX"
     - "Prototype"
 images: 

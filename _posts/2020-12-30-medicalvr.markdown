@@ -4,7 +4,6 @@ title:  "Medical Training In VR"
 short: "medicalvr"
 tags:
     - "VR"
-    - "Vive"
     - "Develop"
     - "Prototype"
     - "3D"

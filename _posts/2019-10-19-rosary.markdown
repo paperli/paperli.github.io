@@ -4,8 +4,6 @@ title:  "eRosary"
 short: "rosa"
 tags:
     - "App"
-    - "iOS"
-    - "Android"
     - "UX"
     - "IoT"
     - "Prototype"

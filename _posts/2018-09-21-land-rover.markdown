@@ -4,8 +4,6 @@ title:  "Land Rover China"
 short: "landrover"
 tags:
     - "App"
-    - "iOS"
-    - "Android"
     - "UX"
 images: 
     - "/assets/images/landrover1.jpg"

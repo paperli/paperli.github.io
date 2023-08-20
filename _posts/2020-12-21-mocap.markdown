@@ -6,7 +6,6 @@ tags:
     - "App"
     - "AI"
     - "AR"
-    - "iOS"
     - "Develop"
     - "UX"
 images: 

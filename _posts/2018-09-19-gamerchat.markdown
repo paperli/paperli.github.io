@@ -4,7 +4,6 @@ title:  "GamerChat"
 short: "gamerchat"
 tags:
     - "App"
-    - "iOS"
     - "UX"
 images: 
     - "/assets/images/gamerchat1.jpg"
