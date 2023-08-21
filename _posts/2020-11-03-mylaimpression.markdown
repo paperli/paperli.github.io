@@ -5,6 +5,7 @@ short: "bridge"
 tags:
     - "AR"
     - "3D"
+    - "Interaction"
 images: 
     - "/assets/images/cases/bridge/promo.jpg"
 

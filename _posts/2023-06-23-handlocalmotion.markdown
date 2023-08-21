@@ -4,8 +4,7 @@ title:  "Hand Local Motion"
 short: "handlocalmotion"
 tags:
     - "VR"
-    - "AR"
-    - "AI"
+    - "Interaction"
     - "UX"
     - "Prototype"
 images: 

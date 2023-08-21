@@ -8,6 +8,7 @@ tags:
     - "AR"
     - "Develop"
     - "UX"
+    - "Interaction"
 images: 
     - "/assets/images/cases/fascroll/pic1.png"
     - "/assets/images/cases/fascroll/pic2.png"

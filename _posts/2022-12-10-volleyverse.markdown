@@ -8,6 +8,8 @@ tags:
     - "AI"
     - "UX"
     - "Prototype"
+    - "Voice"
+    - "Interaction"
 images: 
     - "/assets/images/cases/volleyverse/promo.png"
 

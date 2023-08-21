@@ -6,6 +6,7 @@ tags:
     - "VR"
     - "Prototype"
     - "UX"
+    - "Interaction"
 images: 
     - "/assets/images/cases/bubbles/promo.jpg"
 
