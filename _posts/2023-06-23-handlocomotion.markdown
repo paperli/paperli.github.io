@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "Hand Local Motion"
-short: "handlocalmotion"
+title:  "Hand Locomotion"
+short: "handlocomotion"
 tags:
     - "VR"
     - "Interaction"
     - "UX"
     - "Prototype"
 images: 
-    - "/assets/images/cases/handlocalmotion/promo.png"
+    - "/assets/images/cases/handlocomotion/promo.png"
 
 ---
 <!--summary-->
 
- The prototype in this study experiments the hand local motion by letting users use the pinch gesture to replicate the thumbstick moving behavior. The user testing result shows that users can easily move around with such a gesture without significant motion sickness. However, mapping local-rotating, jumping, and even flying is still a challenge and it feeds the future exploration. 
+ The prototype in this study experiments the hand locomotion by letting users use the pinch gesture to replicate the thumbstick moving behavior. The user testing result shows that users can easily move around with such a gesture without significant motion sickness. However, mapping rotating, jumping, and even flying is still a challenge and it feeds the future exploration. 
 
 <!--more-->
 
-Among immersive app users, there’s a common desire to walk around freely in open virtual worlds with “sliding” movement. When hands become a more dominant interaction media in spatial computing, inheriting users’ intention to explore worlds is an unsolved challenge. The prototype in this study examinates the hand local motion by letting users use the pinch gesture to replicate the thumbstick moving behavior. The user testing result shows that users can easily move around with such a gesture without significant motion sickness. However, mapping local-rotating, jumping, and even flying is still a challenge and it feeds the future exploration.
+Among immersive app users, there’s a common desire to walk around freely in open virtual worlds with “sliding” movement. When hands become a more dominant interaction media in spatial computing, inheriting users’ intention to explore worlds is an unsolved challenge. The prototype in this study examinates the hand locomotion by letting users use the pinch gesture to replicate the thumbstick moving behavior. The user testing result shows that users can easily move around with such a gesture without significant motion sickness. However, mapping rotating, jumping, and even flying is still a challenge and it feeds the future exploration.
 
-![Hand Local Motion](/assets/images/cases/handlocalmotion/moving.jpg)
+![Hand Locomotion](/assets/images/cases/handlocomotion/moving.jpg)
 
 ## People Problem
 
@@ -33,7 +33,7 @@ When we explore a new immersive experience, I frequently heard friends asking ab
 
 Using hands is natural in many interface media. The emerging spatial computing platforms push hand tracking into the main stage of user interaction in virtual worlds. For example, Apple’s upcoming Vision Pro product doesn't ship with dedicated controllers. Meta also keeps investigating and improving their hand-tracking accountability. Common and reliable gestures have been well-defined by those big players, however, how to move around in spatial experiences remains unsettled.
 
-![Hand Local Motion - picking up](/assets/images/cases/handlocalmotion/pickupbox.jpg)
+![Hand Locomotion - picking up](/assets/images/cases/handlocomotion/pickupbox.jpg)
 
 I see that experienced VR players tend to “slide” around the open virtual worlds by turning the thumbstick in games like VRChat, Sprial, AltspaceVR, etc. When those games are migrated into the hand-tracking-dominated spatial computing experience, making users move around with their inherent habits becomes a challenge and yet the opportunity to build players’ confidence to adopt the interaction.
 
@@ -52,9 +52,9 @@ In this experiment, users close their thumb and index fingertips and travel the 
 The resolution allows users to move freely in an immersive virtual space with the wide-adopted pinch gesture. It’s based on the following assumptions:
 * The pinch gesture has been widely adopted to spatial computing platforms and users use it to perform common interactions, like tapping a button, grabbing a virtual object, etc. 
 * Experienced users prefer to move continuously instead of teleporting to a nearby locations.
-* The mismatching of physical immobility and visual movement causes motion sickness. Forcing users to pay close attention on some sole elements can reduce the sickness during local movements. 
+* The mismatching of physical immobility and visual movement causes motion sickness. Forcing users to pay close attention on some sole elements can reduce the sickness during movements. 
 
-![Hand Local Motion - instruction](/assets/images/cases/handlocalmotion/instruction.jpg)
+![Hand Locomotion - instruction](/assets/images/cases/handlocomotion/instruction.jpg)
 
 ## User Testing
 
@@ -94,7 +94,7 @@ I follow the below steps to conduct user testing among 5 experienced Oculus Ques
 
 * People can see the benefits to replace controllers with hands, but they unlikely want to trade off on controller commands.
    * Testers expressed their desire to snap turn, jump, and even teleport to a far distance to move faster.
-   * It will be a challenge to include all local motion options and keep the easiness of the interaction.
+   * It will be a challenge to include all locomotion options and keep the easiness of the interaction.
    * We can try to make snap turn as buttons on the side of the directional panel. Users can use their right hand to tap the buttons to turn.
 * Applying acceleration or not remains debating. In this prototype, I apply the mechanism that the moving speed increases when users move their fingers further for the direction pad center. However, some testers expressed the worry about the potential discomfort while others feel it didn’t accelerate enough. 
    * We must fine tune the acceleration properties for matching a real-world moving speed.
