@@ -78,12 +78,10 @@ Yulon Motor wanted an immersive centerpiece for its factory tour—a virtual-rea
 - Averaged **4.7 / 5 visitor satisfaction** (post-tour surveys; “clarity of ADAS explanation” rose by 32 pp compared with static video).  
 - The dual-platform build gave Yulon purchasing flexibility, ultimately saving ~20 % on hardware procurement.
 
-## Why It Matters for Meta Reality Labs
-- **Rapid Prototyping** — Delivered a production-grade VR demo in < 10 weeks, mirroring Reality Labs’ iterative culture.  
+## Contributions
+- **Rapid Prototyping** — Delivered a production-grade VR demo in < 10 weeks, mirroring a quick iterative culture.  
 - **Systems-Level Thinking** — Translated complex SAE autonomy specs into intuitive spatial interactions.  
-- **Technical Range** — Unity XR-ITK, C# gameplay architecture, HLSL shader authoring, asset-pipeline optimization, and comfort heuristics—all skills immediately applicable to building experimental prototypes at Meta.
-
-## Key Takeaways
+- **Technical Range** — Unity XR-ITK, C# gameplay architecture, Shader Graph, asset-pipeline optimization, and comfort heuristics—all skills immediately applicable to building experimental prototypes for VR products.
 - Balancing **technical accuracy** with **user comfort** is vital when visualizing automotive innovation.  
 - Cross-platform abstraction (OpenXR) future-proofs stakeholder decisions and accelerates hardware trials.  
 - Early, hands-on prototypes drive consensus faster than slideware—especially across language and discipline boundaries.
