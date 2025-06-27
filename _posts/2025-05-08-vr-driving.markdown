@@ -20,7 +20,7 @@ images:
 
 Yulon Motor wanted an immersive centerpiece for its factory tour—a virtual-reality “test-drive” that demonstrates the company’s Level 2 and Level 3 autonomous-driving capabilities. I was engaged as a solo contractor to design and build the experience end-to-end, from rapid concepts to an install-ready Unity application that runs on HTC Vive and Meta Quest headsets.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube.com/embed/GvvHeRzSmok?si=k5tIIE9hqeUVmTU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div style="padding:0;position:relative;"><iframe width="560" height="315" src="https://www.youtube.com/embed/GvvHeRzSmok?si=k5tIIE9hqeUVmTU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## My Role
 
