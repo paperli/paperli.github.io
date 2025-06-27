@@ -19,5 +19,6 @@ Thumbs.db
 *.idea
 *.vscode-test
 *.DS_Store
+*/.DS_Store
 *.vscode-test
 *.vscode-test-*
