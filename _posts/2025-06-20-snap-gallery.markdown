@@ -33,18 +33,23 @@ This project reimagines traditional art appreciation through the lens of spatial
 
 ## Use Cases
 
+![Snap Spectacles](/assets/images/cases/snapgallery/spectacles.png)
+
 ### Educational
+
 - **Art History in Context**: Teachers and students can turn classrooms into interactive galleries by placing paintings relevant to lessons (e.g., Impressionism, Renaissance).
 - **Museum Previews**: Museums can offer AR previews of their collections on-site or remotely.
 - **Self-Guided Learning**: Users can walk through art movements chronologically within their homes.
 
 ### Lifestyle
+
 - **Interior Enrichment**: Decorate physical spaces with rotating digital artwork.
 - **Cultural Micro-Moments**: Place iconic works like Monet’s *Stacks of Wheat (Sunset)* or Van Gogh’s *The Bedroom* above your desk for bursts of daily inspiration.
 - **Social Sharing**: Snap what’s on your wall and share curated galleries with friends.
 
-
 ## Workflow
+
+![Lens Studio](/assets/images/cases/snapgallery/lens_studio.png)
 
 1. **Lens Design**: Created custom golden frame assets for consistent visual identity.
 2. **Environment Mapping**: Used Spectacles’ spatial mesh to detect vertical surfaces.
