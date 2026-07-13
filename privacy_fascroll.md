@@ -1,7 +1,7 @@
 ---
 layout: pure
 title: Privacy Policy
-permalink: /privacy/
+permalink: /fascroll/privacy/
 ---
 
 # Privacy Policy #
