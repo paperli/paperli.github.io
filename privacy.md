@@ -6,59 +6,56 @@ permalink: /privacy/
 
 # Privacy Policy #
 
+_Last updated: July 13, 2026_
+
 Ken-Jung Lee built the Fascroll app as a Commercial app. This SERVICE is provided by Ken-Jung Lee and is intended for use as is.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+This page informs you of my policies regarding the collection, use, and disclosure of Personal Information for anyone who uses this Service. In short: **Fascroll is designed to keep your data on your device.** I do not run analytics, I do not track you, and I do not collect your personal information on my servers.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Fascroll unless otherwise defined in this Privacy Policy.
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.
 
 ## Information Collection and Use ##
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+Fascroll processes the following information **entirely on your device**. It is not transmitted to me and I have no access to it:
 
-The Application also makes use of automatically collected information using the TrueDepth API provided by Apple. The only use of this information is to provide valuable user features. None of the information collected by the TrueDepth API ever leaves the user's device.
+* **Facial expression data.** Fascroll uses Apple's TrueDepth camera and ARKit face tracking to recognize your facial expressions so you can scroll and browse hands-free. This face data is processed in real time on your device and **never leaves your device**. It is not recorded, uploaded, or collected.
+* **On-device model training.** If you choose to train the recognition model to improve accuracy, the training data (your facial expression samples) is stored and used only on your device.
+* **Browsing history.** The web pages you open in Fascroll (URL, page title, and time) are saved locally on your device so you can revisit them.
 
-## Log Data ##
+## iCloud Sync ##
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+If you are signed in to iCloud, your browsing history may sync across your devices through your **private iCloud account** using Apple's iCloud/CloudKit. This data is stored in your personal iCloud and is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). I do not have access to it and it is not stored on any server operated by me.
 
-## Cookies ##
+## Subscriptions ##
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+Fascroll Premium is an auto-renewable subscription sold through the Apple App Store. All payments are processed by Apple; **I do not receive or store your payment information.** Subscription purchases and status are managed by Apple through StoreKit. Payment, billing, and subscription management are handled under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) and the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+## AI Model Updates ##
 
-## Service Providers ##
+Fascroll may download improved facial-recognition models from `paperworkstud.io` to keep recognition accurate. These are downloads only — **no personal information is sent** in these requests.
 
-I may employ third-party companies and individuals due to the following reasons:
+## Analytics ##
 
-* To facilitate our Service;
-* To provide the Service on our behalf;
-* To perform Service-related services; or
-* To assist us in analyzing how our Service is used.
+Fascroll does **not** use any analytics or third-party tracking, and includes no advertising or tracking SDKs. I do not collect usage statistics, device identifiers, or crash logs.
 
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+## Web Browsing, Cookies & Other Sites ##
+
+Fascroll is a web browser. Websites you visit inside Fascroll are operated by third parties and may set their own cookies and collect information according to their own privacy policies. I do not operate those sites, and I have no control over and assume no responsibility for their content or privacy practices. I strongly advise you to review the privacy policy of any website you visit.
 
 ## Security ##
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+I value your trust. Because Fascroll keeps your data on your device (and, if enabled, in your private iCloud), your information stays under your control. No method of electronic storage or transmission is 100% secure, and I cannot guarantee absolute security.
 
-## Links to Other Sites ##
+## Children's Privacy ##
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-## Children’s Privacy ##
-
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+This Service does not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and believe your child has provided personal information, please contact me so I can take the necessary action.
 
 ## Changes to This Privacy Policy ##
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+I may update this Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes are effective immediately after they are posted on this page.
 
 ## Contact Us ##
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact me.
 
-[paperworkstudio](https://paperworkstud.io/)
+[paperworkStudio](https://paperworkstud.io/)
